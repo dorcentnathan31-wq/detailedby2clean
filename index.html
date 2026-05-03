@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+
 <html lang="en">
 <head>
 <meta charset="UTF-8"/>
@@ -10,55 +11,59 @@
 <meta property="og:description" content="Showroom finish delivered to your door. Serving Lantana, Lake Worth, Boynton Beach & West Palm Beach. Book online 24/7."/>
 <meta property="og:type" content="website"/>
 <link rel="canonical" href="https://detailedby2clean.com"/>
-<!-- Schema.org Local Business -->
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"LocalBusiness","name":"Detailed By 2Clean","address":{"@type":"PostalAddress","streetAddress":"1801 Hypoluxo Rd","addressLocality":"Lantana","addressRegion":"FL"},"email":"desktech88@gmail.com","description":"Premium mobile auto detailing serving Palm Beach County","priceRange":"$$","areaServed":["Lantana","Lake Worth","Boynton Beach","West Palm Beach","Delray Beach"]}</script>
-<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Barlow:wght@300;400;500;600&family=Barlow+Condensed:wght@400;600;700&display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Archivo+Black&family=Syne:wght@600;700;800&family=DM+Sans:wght@400;500;600&display=swap" rel="stylesheet"/>
 <style>
 :root{--black:#050508;--panel:#0d0d18;--panel2:#0a0a14;--blue:#2952cc;--blue-bright:#3d6fff;--blue-dim:#1a3580;--blue-muted:rgba(41,82,204,0.15);--text:#e8eaf0;--text-muted:#7a84a0;--border:rgba(41,82,204,0.25);--green:#2ecc71;--gold:#f0c040;}
 *,*::before,*::after{box-sizing:border-box;margin:0;padding:0;}
 html{scroll-behavior:smooth;}
-body{background:var(--black);color:var(--text);font-family:'Barlow',sans-serif;font-weight:400;overflow-x:hidden;}
+body{background:var(--black);color:var(--text);font-family:'DM Sans',sans-serif;font-weight:500;overflow-x:hidden;font-size:1rem;-webkit-font-smoothing:antialiased;}
+
 /* NAV */
 nav{position:fixed;top:0;left:0;right:0;z-index:200;display:flex;align-items:center;justify-content:space-between;padding:18px 48px;transition:all .4s;}
 nav.scrolled{background:rgba(5,5,8,.95);backdrop-filter:blur(14px);padding:12px 48px;border-bottom:1px solid var(--border);}
-.nav-logo{font-family:'Bebas Neue',sans-serif;font-size:1.6rem;letter-spacing:3px;color:#fff;}
+.nav-logo{font-family:'Bebas Neue',sans-serif;font-size:1.75rem;letter-spacing:3px;color:#fff;}
 .nav-logo span{color:var(--blue-bright);}
 .nav-links{display:flex;gap:24px;}
-.nav-links a{font-family:'Barlow Condensed',sans-serif;font-size:.8rem;letter-spacing:2px;text-transform:uppercase;color:var(--text-muted);text-decoration:none;transition:color .2s;}
+.nav-links a{font-family:'Syne',sans-serif;font-size:.78rem;letter-spacing:1.5px;text-transform:uppercase;color:var(--text-muted);text-decoration:none;transition:color .2s;font-weight:700;}
 .nav-links a:hover{color:var(--blue-bright);}
-.nav-cta{background:var(--blue);color:#fff;border:none;padding:10px 22px;font-family:'Barlow Condensed',sans-serif;font-size:.82rem;letter-spacing:2px;text-transform:uppercase;cursor:pointer;transition:background .2s;}
+.nav-cta{background:var(--blue);color:#fff;border:none;padding:10px 20px;font-family:'Syne',sans-serif;font-size:.78rem;font-weight:700;letter-spacing:2px;text-transform:uppercase;cursor:pointer;transition:background .2s;}
 .nav-cta:hover{background:var(--blue-bright);}
+
 /* HERO */
 .hero{position:relative;min-height:100vh;display:flex;flex-direction:column;justify-content:center;padding:140px 48px 80px;overflow:hidden;}
 .hero-bg{position:absolute;inset:0;background:radial-gradient(ellipse 70% 60% at 80% 50%,rgba(41,82,204,.18) 0%,transparent 70%),radial-gradient(ellipse 40% 40% at 15% 80%,rgba(41,82,204,.1) 0%,transparent 60%),linear-gradient(170deg,#050508 0%,#08091a 100%);}
 .hero-grid{position:absolute;inset:0;background-image:linear-gradient(rgba(41,82,204,.06) 1px,transparent 1px),linear-gradient(90deg,rgba(41,82,204,.06) 1px,transparent 1px);background-size:60px 60px;mask-image:radial-gradient(ellipse 80% 80% at 50% 50%,black 30%,transparent 100%);}
 .hero-line{position:absolute;left:0;right:0;height:1px;background:linear-gradient(90deg,transparent,var(--blue),transparent);opacity:.4;animation:scanline 6s ease-in-out infinite;}
 @keyframes scanline{0%,100%{top:20%;opacity:0;}50%{top:80%;opacity:.5;}}
-.hero-eyebrow{position:relative;font-family:'Barlow Condensed',sans-serif;font-size:.8rem;letter-spacing:4px;text-transform:uppercase;color:var(--blue-bright);margin-bottom:20px;display:flex;align-items:center;gap:12px;}
+.hero-eyebrow{position:relative;font-family:'Syne',sans-serif;font-size:.8rem;letter-spacing:4px;text-transform:uppercase;color:var(--blue-bright);margin-bottom:20px;display:flex;align-items:center;gap:12px;font-weight:700;}
 .hero-eyebrow::before{content:'';display:inline-block;width:32px;height:1px;background:var(--blue-bright);}
 .hero-title{position:relative;font-family:'Bebas Neue',sans-serif;font-size:clamp(4rem,10vw,9rem);line-height:.9;letter-spacing:2px;color:#fff;max-width:700px;}
 .hero-title .blue{color:var(--blue-bright);}
-.hero-sub{position:relative;font-size:1.05rem;font-weight:300;color:var(--text-muted);max-width:480px;margin-top:24px;line-height:1.7;}
+.hero-sub{position:relative;font-size:1.18rem;font-weight:600;color:var(--text-muted);max-width:500px;margin-top:24px;line-height:1.65;}
 .hero-actions{position:relative;display:flex;gap:16px;margin-top:40px;flex-wrap:wrap;}
-.btn-primary{background:var(--blue);color:#fff;border:none;padding:14px 36px;font-family:'Barlow Condensed',sans-serif;font-size:.9rem;letter-spacing:2.5px;text-transform:uppercase;cursor:pointer;clip-path:polygon(0 0,calc(100% - 10px) 0,100% 10px,100% 100%,10px 100%,0 calc(100% - 10px));transition:background .2s,box-shadow .2s;}
+.btn-primary{background:var(--blue);color:#fff;border:none;padding:15px 36px;font-family:'Syne',sans-serif;font-size:.85rem;font-weight:700;letter-spacing:2px;text-transform:uppercase;cursor:pointer;clip-path:polygon(0 0,calc(100% - 10px) 0,100% 10px,100% 100%,10px 100%,0 calc(100% - 10px));transition:background .2s,box-shadow .2s;}
 .btn-primary:hover{background:var(--blue-bright);box-shadow:0 0 24px rgba(61,111,255,.4);}
-.btn-outline{background:transparent;color:var(--text);border:1px solid var(--border);padding:14px 36px;font-family:'Barlow Condensed',sans-serif;font-size:.9rem;letter-spacing:2.5px;text-transform:uppercase;cursor:pointer;clip-path:polygon(0 0,calc(100% - 10px) 0,100% 10px,100% 100%,10px 100%,0 calc(100% - 10px));transition:border-color .2s,color .2s;}
+.btn-outline{background:transparent;color:var(--text);border:1px solid var(--border);padding:15px 36px;font-family:'Syne',sans-serif;font-size:.85rem;font-weight:700;letter-spacing:2px;text-transform:uppercase;cursor:pointer;clip-path:polygon(0 0,calc(100% - 10px) 0,100% 10px,100% 100%,10px 100%,0 calc(100% - 10px));transition:border-color .2s,color .2s;text-decoration:none;display:inline-flex;align-items:center;gap:8px;}
 .btn-outline:hover{border-color:var(--blue-bright);color:var(--blue-bright);}
 .hero-badge{position:absolute;right:80px;bottom:80px;width:140px;height:140px;border-radius:50%;border:1px solid var(--border);display:flex;align-items:center;justify-content:center;background:rgba(13,13,24,.8);backdrop-filter:blur(8px);animation:rotateBadge 20s linear infinite;}
 @keyframes rotateBadge{from{transform:rotate(0deg);}to{transform:rotate(360deg);}}
 .hero-badge-inner{display:flex;flex-direction:column;align-items:center;animation:rotateBadge 20s linear infinite reverse;}
 .hero-badge-inner .num{font-family:'Bebas Neue',sans-serif;font-size:2.4rem;color:var(--blue-bright);line-height:1;}
-.hero-badge-inner .lbl{font-family:'Barlow Condensed',sans-serif;font-size:.65rem;letter-spacing:2px;text-transform:uppercase;color:var(--text-muted);text-align:center;}
+.hero-badge-inner .lbl{font-family:'Syne',sans-serif;font-size:.65rem;letter-spacing:2px;text-transform:uppercase;color:var(--text-muted);text-align:center;}
+
 /* STATS */
 .stats-bar{display:flex;border-top:1px solid var(--border);border-bottom:1px solid var(--border);background:var(--panel);}
 .stat-item{flex:1;padding:28px 24px;text-align:center;border-right:1px solid var(--border);}
 .stat-item:last-child{border-right:none;}
 .stat-num{font-family:'Bebas Neue',sans-serif;font-size:2.4rem;color:var(--blue-bright);display:block;}
-.stat-label{font-family:'Barlow Condensed',sans-serif;font-size:.75rem;letter-spacing:2px;text-transform:uppercase;color:var(--text-muted);}
+.stat-label{font-family:'Syne',sans-serif;font-size:.82rem;letter-spacing:2.5px;text-transform:uppercase;color:var(--text-muted);font-weight:500;}
+
 /* SECTION */
 .section{padding:100px 48px;}
-.section-eyebrow{font-family:'Barlow Condensed',sans-serif;font-size:.8rem;letter-spacing:4px;text-transform:uppercase;color:var(--blue-bright);margin-bottom:14px;}
+.section-eyebrow{font-family:'Syne',sans-serif;font-size:.78rem;letter-spacing:4px;text-transform:uppercase;color:var(--blue-bright);margin-bottom:14px;font-weight:700;}
 .section-title{font-family:'Bebas Neue',sans-serif;font-size:clamp(2.2rem,4vw,3.5rem);letter-spacing:2px;color:#fff;margin-bottom:48px;}
+
 /* BOOK IN 30 SECONDS */
 .quick-book{padding:70px 48px;background:linear-gradient(135deg,rgba(41,82,204,.12) 0%,transparent 60%),var(--panel);border-bottom:1px solid var(--border);}
 .quick-inner{max-width:900px;margin:0 auto;text-align:center;}
@@ -66,119 +71,123 @@ nav.scrolled{background:rgba(5,5,8,.95);backdrop-filter:blur(14px);padding:12px 
 .quick-steps::before{content:'';position:absolute;top:28px;left:16.6%;right:16.6%;height:1px;background:var(--border);}
 .quick-step{flex:1;display:flex;flex-direction:column;align-items:center;gap:12px;position:relative;}
 .qs-num{width:56px;height:56px;border-radius:50%;background:var(--blue);border:2px solid var(--blue-bright);display:flex;align-items:center;justify-content:center;font-family:'Bebas Neue',sans-serif;font-size:1.4rem;color:#fff;box-shadow:0 0 20px rgba(61,111,255,.3);}
-.qs-label{font-family:'Barlow Condensed',sans-serif;font-size:.85rem;letter-spacing:1.5px;text-transform:uppercase;color:var(--text);}
-.qs-sub{font-size:.8rem;color:var(--text-muted);text-align:center;}
+.qs-label{font-family:'Archivo Black',sans-serif;font-size:.82rem;letter-spacing:.5px;text-transform:uppercase;color:var(--text);font-weight:900;}
+.qs-sub{font-size:.92rem;font-weight:500;color:var(--text-muted);text-align:center;}
+
 /* SERVICES */
 .services-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:2px;background:var(--border);}
 .service-card{background:var(--panel);padding:36px 30px;position:relative;overflow:hidden;transition:background .25s;}
 .service-card::before{content:'';position:absolute;top:0;left:0;right:0;height:2px;background:var(--blue);transform:scaleX(0);transition:transform .3s;transform-origin:left;}
 .service-card:hover{background:#0f0f20;}
 .service-card:hover::before{transform:scaleX(1);}
+.service-card.coming-soon{opacity:.65;cursor:default;}
+.service-card.coming-soon:hover{background:var(--panel);}
+.service-card.coming-soon::before{display:none;}
 .service-icon{font-size:2rem;margin-bottom:14px;display:block;}
-.service-name{font-family:'Barlow Condensed',sans-serif;font-size:1.2rem;font-weight:700;letter-spacing:1px;text-transform:uppercase;color:#fff;margin-bottom:8px;}
-.service-desc{font-size:.88rem;color:var(--text-muted);line-height:1.6;margin-bottom:16px;}
+.service-name{font-family:'Archivo Black',sans-serif;font-size:1.1rem;font-weight:900;letter-spacing:.5px;text-transform:uppercase;color:#fff;margin-bottom:10px;}
+.service-desc{font-size:.98rem;font-weight:500;color:var(--text-muted);line-height:1.65;margin-bottom:18px;}
 .service-price-wrap{display:flex;align-items:flex-end;justify-content:space-between;flex-wrap:wrap;gap:8px;}
 .service-price{font-family:'Bebas Neue',sans-serif;font-size:1.7rem;color:var(--blue-bright);}
-.service-price span{font-family:'Barlow',sans-serif;font-size:.75rem;color:var(--text-muted);font-weight:300;}
-.service-book-btn{background:var(--blue-muted);border:1px solid var(--border);color:var(--blue-bright);padding:6px 16px;font-family:'Barlow Condensed',sans-serif;font-size:.76rem;letter-spacing:2px;text-transform:uppercase;cursor:pointer;transition:background .2s;}
+.service-price span{font-family:'DM Sans',sans-serif;font-size:.75rem;color:var(--text-muted);font-weight:500;}
+.service-book-btn{background:var(--blue-muted);border:1px solid var(--border);color:var(--blue-bright);padding:6px 16px;font-family:'Syne',sans-serif;font-size:.76rem;letter-spacing:2px;text-transform:uppercase;cursor:pointer;transition:background .2s;}
 .service-book-btn:hover{background:rgba(41,82,204,.3);}
+.coming-soon-badge{display:inline-block;background:rgba(240,192,64,.1);border:1px solid rgba(240,192,64,.4);color:var(--gold);font-family:'Syne',sans-serif;font-size:.72rem;letter-spacing:2px;text-transform:uppercase;padding:6px 14px;}
+
 /* LIVE QUOTE */
 .quote-bar{background:rgba(41,82,204,.1);border-top:1px solid var(--border);border-bottom:1px solid var(--border);padding:20px 48px;}
 .quote-bar-inner{display:flex;align-items:center;gap:20px;flex-wrap:wrap;max-width:900px;margin:0 auto;}
-.qb-label{font-family:'Barlow Condensed',sans-serif;font-size:.78rem;letter-spacing:2px;text-transform:uppercase;color:var(--text-muted);white-space:nowrap;}
-.qb-select{background:rgba(255,255,255,.05);border:1px solid var(--border);color:var(--text);padding:8px 12px;font-family:'Barlow',sans-serif;font-size:.88rem;outline:none;cursor:pointer;-webkit-appearance:none;min-width:160px;}
+.qb-label{font-family:'Syne',sans-serif;font-size:.78rem;letter-spacing:2px;text-transform:uppercase;color:var(--text-muted);white-space:nowrap;}
+.qb-select{background:rgba(255,255,255,.05);border:1px solid var(--border);color:var(--text);padding:8px 12px;font-family:'DM Sans',sans-serif;font-size:.88rem;outline:none;cursor:pointer;-webkit-appearance:none;min-width:160px;}
 .qb-select option{background:#0d0d18;}
 .qb-result{margin-left:auto;font-family:'Bebas Neue',sans-serif;font-size:1.6rem;color:var(--blue-bright);}
-.qb-result span{font-family:'Barlow',sans-serif;font-size:.78rem;color:var(--text-muted);font-weight:300;display:block;text-align:right;}
+.qb-result span{font-family:'DM Sans',sans-serif;font-size:.78rem;color:var(--text-muted);font-weight:500;display:block;text-align:right;}
+
 /* WHY US */
 .why-section{padding:80px 48px;background:var(--panel2);border-top:1px solid var(--border);}
 .why-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:2px;background:var(--border);}
 .why-card{background:var(--panel);padding:28px 24px;display:flex;gap:14px;align-items:flex-start;}
 .why-icon{font-size:1.5rem;flex-shrink:0;margin-top:2px;}
-.why-title{font-family:'Barlow Condensed',sans-serif;font-size:.95rem;letter-spacing:1px;text-transform:uppercase;color:#fff;margin-bottom:4px;}
-.why-desc{font-size:.83rem;color:var(--text-muted);line-height:1.5;}
+.why-title{font-family:'Archivo Black',sans-serif;font-size:.9rem;letter-spacing:.5px;text-transform:uppercase;color:#fff;margin-bottom:6px;font-weight:900;}
+.why-desc{font-size:.97rem;font-weight:500;color:var(--text-muted);line-height:1.6;}
+
 /* GALLERY — before/after */
 .gallery-section{padding:80px 48px;background:var(--panel2);border-top:1px solid var(--border);}
 .ba-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(320px,1fr));gap:3px;}
 .ba-item{position:relative;overflow:hidden;}
-.ba-slider{position:relative;aspect-ratio:16/10;overflow:hidden;cursor:ew-resize;user-select:none;}
-.ba-img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;display:flex;align-items:center;justify-content:center;font-size:4rem;}
-.ba-before{background:linear-gradient(135deg,#1a0a0a,#2a1010);}
-.ba-after{background:linear-gradient(135deg,#0a0a1a,#0d1535);clip-path:inset(0 50% 0 0);transition:clip-path .02s;}
-.ba-handle{position:absolute;top:0;bottom:0;left:50%;width:3px;background:var(--blue-bright);transform:translateX(-50%);cursor:ew-resize;z-index:5;}
+.ba-slider{position:relative;aspect-ratio:16/10;overflow:hidden;cursor:ew-resize;user-select:none;-webkit-user-select:none;}
+.ba-img{position:absolute;inset:0;width:100%;height:100%;}
+.ba-img img{width:100%;height:100%;object-fit:cover;display:block;pointer-events:none;}
+.ba-after{clip-path:inset(0 50% 0 0);}
+.ba-handle{position:absolute;top:0;bottom:0;left:50%;width:3px;background:var(--blue-bright);transform:translateX(-50%);cursor:ew-resize;z-index:5;pointer-events:none;}
 .ba-handle::before{content:'◀ ▶';position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);background:var(--blue-bright);color:#fff;font-size:.55rem;padding:6px 8px;letter-spacing:1px;white-space:nowrap;}
-.ba-label-before{position:absolute;top:10px;left:10px;background:rgba(0,0,0,.7);border:1px solid var(--border);color:var(--text-muted);font-family:'Barlow Condensed',sans-serif;font-size:.65rem;letter-spacing:2px;text-transform:uppercase;padding:3px 8px;z-index:4;}
-.ba-label-after{position:absolute;top:10px;right:10px;background:rgba(41,82,204,.5);border:1px solid var(--blue-bright);color:#fff;font-family:'Barlow Condensed',sans-serif;font-size:.65rem;letter-spacing:2px;text-transform:uppercase;padding:3px 8px;z-index:4;}
-.ba-caption{background:var(--panel);padding:12px 16px;font-family:'Barlow Condensed',sans-serif;font-size:.8rem;letter-spacing:1px;text-transform:uppercase;color:var(--text-muted);}
+.ba-label-before{position:absolute;top:10px;left:10px;background:rgba(0,0,0,.7);border:1px solid var(--border);color:var(--text-muted);font-family:'Syne',sans-serif;font-size:.65rem;letter-spacing:2px;text-transform:uppercase;padding:3px 8px;z-index:4;}
+.ba-label-after{position:absolute;top:10px;right:10px;background:rgba(41,82,204,.5);border:1px solid var(--blue-bright);color:#fff;font-family:'Syne',sans-serif;font-size:.65rem;letter-spacing:2px;text-transform:uppercase;padding:3px 8px;z-index:4;}
+.ba-caption{background:var(--panel);padding:12px 16px;font-family:'Syne',sans-serif;font-size:.8rem;letter-spacing:1px;text-transform:uppercase;color:var(--text-muted);}
 .ba-caption strong{color:var(--blue-bright);}
-/* GALLERY note */
-.gallery-placeholder{background:rgba(41,82,204,.06);border:1px dashed var(--border);padding:14px 18px;margin-bottom:24px;font-size:.84rem;color:var(--text-muted);display:flex;gap:10px;align-items:center;}
-.gallery-placeholder strong{color:var(--blue-bright);}
-/* REVIEWS — Google style */
+
+/* REVIEWS */
 .reviews-section{padding:100px 48px;}
-.google-badge{display:flex;align-items:center;gap:20px;background:rgba(41,82,204,.08);border:1px solid var(--border);padding:20px 24px;margin-bottom:40px;max-width:480px;}
+.google-badge{display:flex;align-items:center;gap:20px;background:rgba(41,82,204,.08);border:1px solid var(--border);padding:20px 24px;margin-bottom:40px;max-width:560px;flex-wrap:wrap;}
 .gb-logo{font-size:2.2rem;}
 .gb-stars{color:var(--gold);font-size:1.2rem;letter-spacing:3px;}
 .gb-score{font-family:'Bebas Neue',sans-serif;font-size:2.6rem;color:#fff;line-height:1;}
 .gb-count{font-size:.8rem;color:var(--text-muted);}
-.gb-source{font-family:'Barlow Condensed',sans-serif;font-size:.7rem;letter-spacing:2px;text-transform:uppercase;color:var(--blue-bright);margin-top:3px;}
+.gb-source{font-family:'Syne',sans-serif;font-size:.7rem;letter-spacing:2px;text-transform:uppercase;color:var(--blue-bright);margin-top:3px;}
 .reviews-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:2px;background:var(--border);margin-bottom:40px;}
 .review-card{background:var(--panel);padding:28px 24px;}
 .review-stars{color:var(--gold);font-size:1rem;margin-bottom:10px;letter-spacing:2px;}
-.review-text{font-size:.9rem;color:var(--text-muted);line-height:1.65;margin-bottom:14px;font-style:italic;}
-.review-author{font-family:'Barlow Condensed',sans-serif;font-size:.78rem;letter-spacing:2px;text-transform:uppercase;color:var(--text);}
+.review-text{font-size:1rem;font-weight:500;color:var(--text-muted);line-height:1.7;margin-bottom:14px;font-style:italic;}
+.review-author{font-family:'Archivo Black',sans-serif;font-size:.8rem;letter-spacing:.5px;text-transform:uppercase;color:var(--text);font-weight:900;}
 .review-via{font-size:.7rem;color:var(--blue-bright);margin-top:3px;}
 .review-form-wrap{max-width:580px;}
-.review-form-wrap h3{font-family:'Barlow Condensed',sans-serif;font-size:1.1rem;letter-spacing:2px;text-transform:uppercase;color:var(--text);margin-bottom:12px;}
+.review-form-wrap h3{font-family:'Syne',sans-serif;font-size:1.1rem;letter-spacing:2px;text-transform:uppercase;color:var(--text);margin-bottom:12px;}
 .star-picker{display:flex;gap:6px;margin-bottom:12px;}
-.star-picker span{font-size:1.5rem;cursor:pointer;opacity:.25;transition:opacity .15s;}
+.star-picker span{font-size:1.5rem;cursor:pointer;opacity:.25;transition:opacity .15s;color:var(--gold);}
 .star-picker span.lit{opacity:1;}
+
 /* BOOKING */
 .booking-section{padding:100px 48px;background:var(--panel);border-top:1px solid var(--border);border-bottom:1px solid var(--border);}
 .booking-inner{display:grid;grid-template-columns:1fr 1fr;gap:60px;max-width:1100px;margin:0 auto;}
-.booking-tagline{font-size:.98rem;color:var(--text-muted);line-height:1.8;margin-bottom:24px;}
+.booking-tagline{font-size:1.08rem;font-weight:600;color:var(--text-muted);line-height:1.8;margin-bottom:24px;}
 .booking-features{list-style:none;display:flex;flex-direction:column;gap:10px;}
-.booking-features li{display:flex;align-items:center;gap:12px;font-size:.88rem;color:var(--text-muted);}
+.booking-features li{display:flex;align-items:center;gap:12px;font-size:.98rem;font-weight:600;color:var(--text-muted);}
 .booking-features li::before{content:'▸';color:var(--blue-bright);font-size:.7rem;}
-/* VEHICLE */
-.step-label{font-family:'Barlow Condensed',sans-serif;font-size:.72rem;letter-spacing:3px;text-transform:uppercase;color:var(--blue-bright);margin-bottom:10px;padding-bottom:7px;border-bottom:1px solid var(--border);}
+.step-label{font-family:'Syne',sans-serif;font-size:.72rem;letter-spacing:2.5px;text-transform:uppercase;color:var(--blue-bright);margin-bottom:12px;padding-bottom:8px;border-bottom:1px solid var(--border);font-weight:700;}
 .vehicle-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:8px;margin-bottom:14px;}
 .vehicle-btn{background:rgba(255,255,255,.03);border:1px solid var(--border);padding:12px 10px;cursor:pointer;text-align:center;transition:all .2s;display:flex;flex-direction:column;align-items:center;gap:3px;}
 .vehicle-btn:hover,.vehicle-btn.selected{border-color:var(--blue-bright);background:var(--blue-muted);box-shadow:0 0 0 1px var(--blue-bright);}
 .v-icon{font-size:1.5rem;}
-.v-name{font-family:'Barlow Condensed',sans-serif;font-size:.82rem;letter-spacing:1px;text-transform:uppercase;color:var(--text);}
-.v-sub{font-size:.7rem;color:var(--blue-bright);}
-/* ADDONS */
-.addon-label{font-family:'Barlow Condensed',sans-serif;font-size:.72rem;letter-spacing:2px;text-transform:uppercase;color:var(--text-muted);margin-bottom:7px;}
+.v-name{font-family:'Archivo Black',sans-serif;font-size:.82rem;letter-spacing:.3px;text-transform:uppercase;color:var(--text);font-weight:900;}
+.v-sub{font-size:.82rem;font-weight:500;color:var(--blue-bright);}
+.addon-label{font-family:'Syne',sans-serif;font-size:.72rem;letter-spacing:2px;text-transform:uppercase;color:var(--text-muted);margin-bottom:7px;}
 .addons-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:5px;margin-bottom:12px;}
 .addon-item{cursor:pointer;}
 .addon-item input{display:none;}
 .addon-box{display:flex;flex-direction:column;padding:9px 11px;border:1px solid var(--border);background:rgba(255,255,255,.02);transition:all .2s;cursor:pointer;}
 .addon-item input:checked + .addon-box{border-color:var(--blue-bright);background:var(--blue-muted);}
-.addon-name{font-family:'Barlow Condensed',sans-serif;font-size:.82rem;letter-spacing:1px;text-transform:uppercase;color:var(--text);}
-.addon-price{font-family:'Bebas Neue',sans-serif;font-size:1rem;color:var(--blue-bright);line-height:1.2;}
-.addon-desc{font-size:.7rem;color:var(--text-muted);margin-top:1px;}
-/* PRICE SUMMARY */
+.addon-name{font-family:'Archivo Black',sans-serif;font-size:.75rem;letter-spacing:.3px;text-transform:uppercase;color:var(--text);font-weight:900;}
+.addon-price{font-family:'Bebas Neue',sans-serif;font-size:1.1rem;color:var(--blue-bright);line-height:1.2;}
+.addon-desc{font-size:.82rem;font-weight:500;color:var(--text-muted);margin-top:2px;}
 .price-summary{background:rgba(41,82,204,.08);border:1px solid var(--border);padding:12px 14px;margin-bottom:4px;}
-.ps-title{font-family:'Barlow Condensed',sans-serif;font-size:.72rem;letter-spacing:3px;text-transform:uppercase;color:var(--blue-bright);margin-bottom:8px;}
+.ps-title{font-family:'Syne',sans-serif;font-size:.72rem;letter-spacing:3px;text-transform:uppercase;color:var(--blue-bright);margin-bottom:8px;}
 .ps-line{display:flex;justify-content:space-between;font-size:.83rem;color:var(--text-muted);padding:2px 0;}
 .ps-total{display:flex;justify-content:space-between;font-family:'Bebas Neue',sans-serif;font-size:1.3rem;color:#fff;border-top:1px solid var(--border);margin-top:7px;padding-top:7px;}
 .ps-total span:last-child{color:var(--blue-bright);}
 .ps-note{font-size:.7rem;color:var(--text-muted);margin-top:5px;}
-/* STEP PROGRESS */
 .step-progress{display:flex;align-items:center;margin-bottom:14px;}
-.sp-item{width:22px;height:22px;border-radius:50%;border:1px solid var(--border);display:flex;align-items:center;justify-content:center;font-family:'Barlow Condensed',sans-serif;font-size:.72rem;color:var(--text-muted);flex-shrink:0;transition:all .2s;}
+.sp-item{width:22px;height:22px;border-radius:50%;border:1px solid var(--border);display:flex;align-items:center;justify-content:center;font-family:'Syne',sans-serif;font-size:.72rem;color:var(--text-muted);flex-shrink:0;transition:all .2s;}
 .sp-item.active{background:var(--blue);border-color:var(--blue-bright);color:#fff;}
 .sp-item.done{background:var(--blue-dim);border-color:var(--blue);color:#fff;}
 .sp-line{flex:1;height:1px;background:var(--border);}
+
 /* CALENDAR */
 .calendar-wrap{margin-bottom:16px;}
 .cal-header{display:flex;align-items:center;justify-content:space-between;margin-bottom:12px;}
-.cal-month{font-family:'Barlow Condensed',sans-serif;font-size:.95rem;letter-spacing:2px;text-transform:uppercase;color:#fff;}
+.cal-month{font-family:'Syne',sans-serif;font-size:.95rem;letter-spacing:2px;text-transform:uppercase;color:#fff;}
 .cal-nav{background:none;border:1px solid var(--border);color:var(--text-muted);width:28px;height:28px;cursor:pointer;font-size:.85rem;transition:color .2s,border-color .2s;}
 .cal-nav:hover{color:var(--blue-bright);border-color:var(--blue-bright);}
 .cal-grid{display:grid;grid-template-columns:repeat(7,1fr);gap:2px;}
-.cal-day-name{text-align:center;font-family:'Barlow Condensed',sans-serif;font-size:.68rem;letter-spacing:1px;color:var(--text-muted);padding:3px 0;}
+.cal-day-name{text-align:center;font-family:'Syne',sans-serif;font-size:.68rem;letter-spacing:1px;color:var(--text-muted);padding:3px 0;}
 .cal-day{text-align:center;padding:7px 3px;font-size:.82rem;cursor:pointer;border:1px solid transparent;transition:all .15s;color:var(--text-muted);}
 .cal-day.available{color:var(--text);border-color:var(--border);}
 .cal-day.available:hover{border-color:var(--blue-bright);color:var(--blue-bright);background:var(--blue-muted);}
@@ -187,37 +196,39 @@ nav.scrolled{background:rgba(5,5,8,.95);backdrop-filter:blur(14px);padding:12px 
 .cal-day.empty,.cal-day.past{opacity:.2;cursor:default;pointer-events:none;}
 .cal-day.booked{color:#2a2a3a;text-decoration:line-through;cursor:not-allowed;}
 .cal-legend{display:flex;gap:14px;margin-top:8px;flex-wrap:wrap;}
-.cal-legend-item{display:flex;align-items:center;gap:5px;font-size:.7rem;color:var(--text-muted);font-family:'Barlow Condensed',sans-serif;letter-spacing:1px;}
+.cal-legend-item{display:flex;align-items:center;gap:5px;font-size:.7rem;color:var(--text-muted);font-family:'Syne',sans-serif;letter-spacing:1px;}
 .cal-legend-dot{width:8px;height:8px;border-radius:50%;}
+
 /* TIME SLOTS */
 .time-slots{margin-bottom:12px;}
-.time-slots-title{font-family:'Barlow Condensed',sans-serif;font-size:.72rem;letter-spacing:2px;text-transform:uppercase;color:var(--text-muted);margin-bottom:7px;}
+.time-slots-title{font-family:'Syne',sans-serif;font-size:.72rem;letter-spacing:2px;text-transform:uppercase;color:var(--text-muted);margin-bottom:7px;}
 .slots-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:5px;}
-.slot{padding:7px 3px;text-align:center;font-size:.75rem;font-family:'Barlow Condensed',sans-serif;letter-spacing:1px;border:1px solid var(--border);color:var(--text-muted);cursor:pointer;transition:all .15s;}
+.slot{padding:7px 3px;text-align:center;font-size:.75rem;font-family:'Syne',sans-serif;letter-spacing:1px;border:1px solid var(--border);color:var(--text-muted);cursor:pointer;transition:all .15s;}
 .slot.open{color:var(--text);border-color:var(--border);}
 .slot.open:hover{border-color:var(--blue-bright);color:var(--blue-bright);background:var(--blue-muted);}
 .slot.sel{background:var(--blue);color:#fff;border-color:var(--blue);}
 .slot.taken{color:#222;cursor:not-allowed;text-decoration:line-through;}
+
 /* GCAL */
-.gcal-box{background:rgba(40, 84, 216, 0.08);border:1px solid var(--border);padding:11px 13px;margin-top:10px;}
+.gcal-box{background:rgba(40,84,216,.08);border:1px solid var(--border);padding:11px 13px;margin-top:10px;}
 .gcal-inner{display:flex;align-items:center;gap:9px;}
 .gcal-icon{font-size:1.3rem;flex-shrink:0;}
-.gcal-title{font-family:'Barlow Condensed',sans-serif;font-size:.82rem;letter-spacing:1px;text-transform:uppercase;color:var(--text);}
+.gcal-title{font-family:'Syne',sans-serif;font-size:.82rem;letter-spacing:1px;text-transform:uppercase;color:var(--text);}
 .gcal-sub{font-size:.7rem;color:var(--text-muted);}
-.gcal-btn{background:var(--blue);border:none;color:#fff;padding:7px 14px;font-family:'Barlow Condensed',sans-serif;font-size:.76rem;letter-spacing:1px;text-transform:uppercase;cursor:pointer;white-space:nowrap;transition:background .2s;margin-left:auto;flex-shrink:0;}
+.gcal-btn{background:var(--blue);border:none;color:#fff;padding:7px 14px;font-family:'Syne',sans-serif;font-size:.76rem;letter-spacing:1px;text-transform:uppercase;cursor:pointer;white-space:nowrap;transition:background .2s;margin-left:auto;flex-shrink:0;}
 .gcal-btn:hover{background:var(--blue-bright);}
 .gcal-status{font-size:.78rem;margin-top:7px;padding-top:7px;border-top:1px solid var(--border);color:var(--green);}
+
 /* FORM */
 .form-row{margin-bottom:11px;}
-.form-row label{display:block;font-family:'Barlow Condensed',sans-serif;font-size:.72rem;letter-spacing:2px;text-transform:uppercase;color:var(--text-muted);margin-bottom:4px;}
-.form-row input,.form-row select,.form-row textarea{width:100%;background:rgba(255,255,255,.04);border:1px solid var(--border);color:var(--text);padding:10px 13px;font-family:'Barlow',sans-serif;font-size:.9rem;outline:none;transition:border-color .2s;-webkit-appearance:none;}
+.form-row label{display:block;font-family:'Syne',sans-serif;font-size:.72rem;letter-spacing:1.5px;text-transform:uppercase;color:var(--text-muted);margin-bottom:5px;font-weight:700;}
+.form-row input,.form-row select,.form-row textarea{width:100%;background:rgba(255,255,255,.04);border:1px solid var(--border);color:var(--text);padding:10px 13px;font-family:'DM Sans',sans-serif;font-size:1rem;font-weight:600;outline:none;transition:border-color .2s;-webkit-appearance:none;}
 .form-row input:focus,.form-row select:focus,.form-row textarea:focus{border-color:var(--blue-bright);}
 .form-row select option{background:#0d0d18;}
 .form-grid{display:grid;grid-template-columns:1fr 1fr;gap:11px;}
-/* PAYMENT */
-.payment-label{font-family:'Barlow Condensed',sans-serif;font-size:.72rem;letter-spacing:2px;text-transform:uppercase;color:var(--text-muted);margin-bottom:8px;display:block;margin-top:4px;}
+.payment-label{font-family:'Syne',sans-serif;font-size:.72rem;letter-spacing:2px;text-transform:uppercase;color:var(--text-muted);margin-bottom:8px;display:block;margin-top:4px;}
 .payment-methods{display:flex;gap:6px;flex-wrap:wrap;margin-bottom:8px;}
-.pay-btn{flex:1;min-width:72px;padding:9px 6px;border:1px solid var(--border);background:rgba(255,255,255,.03);color:var(--text-muted);font-family:'Barlow Condensed',sans-serif;font-size:.75rem;letter-spacing:1px;cursor:pointer;text-align:center;transition:all .2s;}
+.pay-btn{flex:1;min-width:72px;padding:9px 6px;border:1px solid var(--border);background:rgba(255,255,255,.03);color:var(--text-muted);font-family:'Syne',sans-serif;font-size:.75rem;letter-spacing:1px;cursor:pointer;text-align:center;transition:all .2s;}
 .pay-btn.selected{border-color:var(--blue-bright);color:var(--blue-bright);background:var(--blue-muted);}
 .pay-icon{font-size:1rem;display:block;margin-bottom:2px;}
 .secure-badge{font-size:.73rem;color:var(--text-muted);}
@@ -229,49 +240,70 @@ nav.scrolled{background:rgba(5,5,8,.95);backdrop-filter:blur(14px);padding:12px 
 .success-msg{color:var(--text-muted);margin-bottom:9px;}
 .success-sms{background:rgba(41,82,204,.1);border:1px solid var(--border);padding:13px 15px;font-size:.83rem;color:var(--text-muted);line-height:1.7;text-align:left;}
 .success-sms strong{color:var(--blue-bright);}
-/* SERVICE AREA + MAP */
+.success-gcal-btn{background:var(--blue);border:none;color:#fff;padding:11px;font-family:'Syne',sans-serif;font-size:.84rem;letter-spacing:1px;text-transform:uppercase;cursor:pointer;width:100%;margin-top:14px;transition:background .2s;}
+.success-gcal-btn:hover{background:var(--blue-bright);}
+
+/* SERVICE AREA */
 .area-section{padding:80px 48px;background:var(--panel);border-top:1px solid var(--border);}
 .area-inner{display:grid;grid-template-columns:1fr 1fr;gap:60px;align-items:start;}
 .area-cities{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-top:16px;}
-.area-city{background:rgba(255,255,255,.03);border:1px solid var(--border);padding:12px 16px;font-family:'Barlow Condensed',sans-serif;font-size:.88rem;letter-spacing:1px;text-transform:uppercase;color:var(--text-muted);transition:all .2s;}
+.area-city{background:rgba(255,255,255,.03);border:1px solid var(--border);padding:12px 16px;font-family:'Syne',sans-serif;font-size:.95rem;font-weight:500;letter-spacing:1px;text-transform:uppercase;color:var(--text-muted);transition:all .2s;}
 .area-city:hover{border-color:var(--blue-bright);color:var(--blue-bright);}
-.area-city strong{display:block;color:var(--blue-bright);font-size:.65rem;letter-spacing:2px;}
+.area-city strong{display:block;color:var(--blue-bright);font-size:.72rem;letter-spacing:2px;font-weight:600;}
 .map-wrap{position:relative;border:1px solid var(--border);overflow:hidden;}
 .map-wrap iframe{display:block;width:100%;height:320px;border:none;filter:invert(.85) hue-rotate(180deg) saturate(.6);}
-.map-label{position:absolute;bottom:0;left:0;right:0;background:rgba(5,5,8,.85);backdrop-filter:blur(8px);padding:10px 16px;font-family:'Barlow Condensed',sans-serif;font-size:.75rem;letter-spacing:2px;text-transform:uppercase;color:var(--blue-bright);}
+.map-label{position:absolute;bottom:0;left:0;right:0;background:rgba(5,5,8,.85);backdrop-filter:blur(8px);padding:10px 16px;font-family:'Syne',sans-serif;font-size:.75rem;letter-spacing:2px;text-transform:uppercase;color:var(--blue-bright);}
+
+/* ── PHOTO SHOWCASE ── */
+.photo-showcase{background:var(--black);border-top:1px solid var(--border);}
+.ps-showcase-eyebrow{font-family:'Syne',sans-serif;font-size:.78rem;letter-spacing:4px;text-transform:uppercase;color:var(--blue-bright);text-align:center;padding:44px 48px 22px;font-weight:700;}
+.ps-showcase-title{font-family:'Bebas Neue',sans-serif;font-size:clamp(1.8rem,4vw,2.8rem);letter-spacing:2px;color:#fff;text-align:center;padding:0 48px 28px;}
+.ps-photo-strip{display:grid;grid-template-columns:1fr 1.15fr 1fr;gap:3px;}
+.ps-photo-item{position:relative;overflow:hidden;aspect-ratio:4/3;}
+.ps-photo-item.ps-photo-tall{aspect-ratio:3/4;}
+.ps-photo-item img{width:100%;height:100%;object-fit:cover;display:block;transition:transform .55s cubic-bezier(.25,.46,.45,.94);}
+.ps-photo-item:hover img{transform:scale(1.05);}
+.ps-photo-label{position:absolute;bottom:0;left:0;right:0;padding:24px 18px 16px;background:linear-gradient(transparent,rgba(5,5,8,.9));display:flex;justify-content:space-between;align-items:flex-end;opacity:0;transition:opacity .3s;}
+.ps-photo-item:hover .ps-photo-label{opacity:1;}
+.ps-car{font-family:'Archivo Black',sans-serif;font-size:.9rem;letter-spacing:.5px;text-transform:uppercase;color:#fff;font-weight:900;}
+.ps-service{font-family:'Syne',sans-serif;font-size:.72rem;letter-spacing:1.5px;text-transform:uppercase;color:var(--blue-bright);font-weight:700;}
+.ps-photo-corner{position:absolute;top:12px;left:12px;background:rgba(5,5,8,.75);border:1px solid var(--border);backdrop-filter:blur(6px);padding:4px 10px;font-family:'Syne',sans-serif;font-size:.65rem;letter-spacing:2px;text-transform:uppercase;color:var(--blue-bright);}
+
 /* INSTAGRAM */
 .insta-section{padding:60px 48px;background:var(--panel2);border-top:1px solid var(--border);}
 .insta-grid{display:grid;grid-template-columns:repeat(6,1fr);gap:3px;margin-top:28px;}
 .insta-post{aspect-ratio:1;overflow:hidden;position:relative;cursor:pointer;}
 .insta-img{width:100%;height:100%;display:flex;align-items:center;justify-content:center;font-size:2rem;transition:transform .3s;}
+.insta-img img{width:100%;height:100%;object-fit:cover;display:block;}
 .insta-post:hover .insta-img{transform:scale(1.08);}
 .insta-overlay{position:absolute;inset:0;background:rgba(41,82,204,.7);display:flex;align-items:center;justify-content:center;opacity:0;transition:opacity .2s;}
 .insta-post:hover .insta-overlay{opacity:1;}
-.insta-overlay span{font-family:'Barlow Condensed',sans-serif;font-size:.7rem;letter-spacing:2px;color:#fff;text-transform:uppercase;}
+.insta-overlay span{font-family:'Syne',sans-serif;font-size:.7rem;letter-spacing:2px;color:#fff;text-transform:uppercase;}
 .insta-note{text-align:center;margin-top:20px;font-size:.83rem;color:var(--text-muted);}
+
 /* SOCIAL */
 .social-section{padding:52px 48px;background:var(--panel);border-top:1px solid var(--border);}
 .social-inner{display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:20px;}
 .social-text h3{font-family:'Bebas Neue',sans-serif;font-size:2rem;letter-spacing:2px;color:#fff;}
 .social-text p{color:var(--text-muted);font-size:.88rem;margin-top:3px;}
 .social-links{display:flex;gap:10px;flex-wrap:wrap;}
-.social-link{display:flex;align-items:center;gap:7px;padding:10px 18px;border:1px solid var(--border);color:var(--text-muted);font-family:'Barlow Condensed',sans-serif;font-size:.8rem;letter-spacing:2px;text-transform:uppercase;text-decoration:none;transition:all .2s;}
+.social-link{display:flex;align-items:center;gap:7px;padding:10px 18px;border:1px solid var(--border);color:var(--text-muted);font-family:'Syne',sans-serif;font-size:.8rem;letter-spacing:2px;text-transform:uppercase;text-decoration:none;transition:all .2s;}
 .social-link:hover{border-color:var(--blue-bright);color:var(--blue-bright);}
+
 /* TOAST */
 #toast{position:fixed;bottom:110px;right:24px;background:var(--panel);border:1px solid var(--border);border-left:3px solid var(--blue-bright);padding:15px 19px;min-width:250px;z-index:9999;opacity:0;transform:translateX(20px);transition:opacity .3s,transform .3s;pointer-events:none;}
 #toast.show{opacity:1;transform:translateX(0);}
-#toast strong{display:block;font-family:'Barlow Condensed',sans-serif;font-size:.82rem;letter-spacing:1px;text-transform:uppercase;color:var(--text);margin-bottom:3px;}
+#toast strong{display:block;font-family:'Syne',sans-serif;font-size:.82rem;letter-spacing:1px;text-transform:uppercase;color:var(--text);margin-bottom:3px;}
 #toast p{font-size:.83rem;color:var(--text-muted);}
+
 /* FLOATING CALL/TEXT */
 .float-contact{position:fixed;bottom:28px;left:28px;display:flex;flex-direction:column;gap:8px;z-index:300;}
-.float-btn{display:flex;align-items:center;gap:8px;padding:10px 16px;font-family:'Barlow Condensed',sans-serif;font-size:.78rem;letter-spacing:2px;text-transform:uppercase;text-decoration:none;transition:all .2s;border:none;cursor:pointer;}
+.float-btn{display:flex;align-items:center;gap:8px;padding:11px 18px;font-family:'Syne',sans-serif;font-size:.88rem;font-weight:600;letter-spacing:2px;text-transform:uppercase;text-decoration:none;transition:all .2s;border:none;cursor:pointer;}
 .float-call{background:#1a6b1a;color:#fff;}
 .float-call:hover{background:#22881a;}
 .float-text{background:var(--blue);color:#fff;}
 .float-text:hover{background:var(--blue-bright);}
-<div class="float-contact">
-<div class="float-contact">
-</div>
+
 /* AI */
 #ai-btn{position:fixed;bottom:28px;right:28px;width:56px;height:56px;border-radius:50%;background:var(--blue);border:none;cursor:pointer;display:flex;align-items:center;justify-content:center;z-index:300;animation:pulse 2.5s infinite;transition:background .2s;}
 #ai-btn:hover{background:var(--blue-bright);}
@@ -283,60 +315,147 @@ nav.scrolled{background:rgba(5,5,8,.95);backdrop-filter:blur(14px);padding:12px 
 .ai-header-left{display:flex;align-items:center;gap:9px;}
 .ai-dot{width:8px;height:8px;border-radius:50%;background:#3dff8f;box-shadow:0 0 8px #3dff8f;animation:blink 1.4s infinite;}
 @keyframes blink{0%,100%{opacity:1;}50%{opacity:.3;}}
-.ai-title{font-family:'Barlow Condensed',sans-serif;font-size:.88rem;letter-spacing:2px;text-transform:uppercase;color:var(--text);}
-.ai-subtitle{font-size:.68rem;color:var(--blue-bright);font-family:'Barlow Condensed',sans-serif;letter-spacing:1px;}
+.ai-title{font-family:'Syne',sans-serif;font-size:.88rem;letter-spacing:2px;text-transform:uppercase;color:var(--text);}
+.ai-subtitle{font-size:.68rem;color:var(--blue-bright);font-family:'Syne',sans-serif;letter-spacing:1px;}
 #ai-close{background:none;border:none;color:var(--text-muted);cursor:pointer;font-size:1.1rem;}
 .ai-messages{flex:1;overflow-y:auto;padding:14px;display:flex;flex-direction:column;gap:10px;max-height:300px;scrollbar-width:thin;scrollbar-color:var(--blue-dim) transparent;}
-.ai-msg{max-width:86%;padding:9px 13px;font-size:.86rem;line-height:1.5;}
+.ai-msg{max-width:86%;padding:9px 13px;font-size:.95rem;font-weight:500;line-height:1.55;}
 .ai-msg.bot{background:rgba(41,82,204,.12);border-left:2px solid var(--blue);color:var(--text);align-self:flex-start;}
 .ai-msg.user{background:rgba(255,255,255,.05);border-right:2px solid var(--text-muted);color:var(--text);align-self:flex-end;text-align:right;}
 .ai-msg.typing{opacity:.6;}
 .ai-quick{display:flex;flex-wrap:wrap;gap:5px;padding:9px 14px;border-top:1px solid var(--border);}
-.ai-quick button{background:rgba(41,82,204,.12);border:1px solid var(--border);color:var(--blue-bright);padding:4px 9px;font-family:'Barlow Condensed',sans-serif;font-size:.72rem;letter-spacing:1px;cursor:pointer;transition:background .2s;}
+.ai-quick button{background:rgba(41,82,204,.12);border:1px solid var(--border);color:var(--blue-bright);padding:4px 9px;font-family:'Syne',sans-serif;font-size:.72rem;letter-spacing:1px;cursor:pointer;transition:background .2s;}
 .ai-quick button:hover{background:rgba(41,82,204,.3);}
 .ai-input-row{display:flex;border-top:1px solid var(--border);}
-#ai-input{flex:1;background:transparent;border:none;color:var(--text);padding:13px 15px;font-family:'Barlow',sans-serif;font-size:.88rem;outline:none;}
+#ai-input{flex:1;background:transparent;border:none;color:var(--text);padding:13px 15px;font-family:'DM Sans',sans-serif;font-size:.88rem;outline:none;}
 #ai-input::placeholder{color:var(--text-muted);}
 #ai-send{background:var(--blue);border:none;color:#fff;padding:13px 16px;cursor:pointer;font-size:.95rem;transition:background .2s;}
 #ai-send:hover{background:var(--blue-bright);}
+
 /* FOOTER */
 footer{padding:48px;border-top:1px solid var(--border);}
 .footer-inner{display:grid;grid-template-columns:1.4fr 1fr 1fr;gap:40px;margin-bottom:32px;}
-.footer-col h4{font-family:'Barlow Condensed',sans-serif;font-size:.78rem;letter-spacing:3px;text-transform:uppercase;color:var(--blue-bright);margin-bottom:13px;}
-.footer-col p,.footer-col a{font-size:.86rem;color:var(--text-muted);line-height:2.1;display:block;text-decoration:none;transition:color .2s;}
+.footer-col h4{font-family:'Syne',sans-serif;font-size:.78rem;letter-spacing:3px;text-transform:uppercase;color:var(--blue-bright);margin-bottom:13px;}
+.footer-col p,.footer-col a{font-size:.95rem;font-weight:500;color:var(--text-muted);line-height:2.1;display:block;text-decoration:none;transition:color .2s;}
 .footer-col a:hover{color:var(--blue-bright);}
 .footer-bottom{display:flex;justify-content:space-between;align-items:center;border-top:1px solid var(--border);padding-top:20px;flex-wrap:wrap;gap:10px;}
 .footer-logo{font-family:'Bebas Neue',sans-serif;font-size:1.4rem;letter-spacing:3px;color:#fff;}
 .footer-logo span{color:var(--blue-bright);}
-.footer-copy{font-size:.76rem;color:var(--text-muted);font-family:'Barlow Condensed',sans-serif;letter-spacing:1px;}
-@media(max-width:900px){
-  nav{padding:13px 18px;}nav.scrolled{padding:9px 18px;}.nav-links{display:none;}
-  .hero{padding:110px 18px 60px;}.hero-badge{display:none;}
-  .section,.gallery-section,.reviews-section,.social-section,.why-section,.insta-section{padding:56px 18px;}
-  .booking-section,.area-section,.quick-book{padding:56px 18px;}
-  .booking-inner,.area-inner{grid-template-columns:1fr;gap:36px;}
-  .form-grid{grid-template-columns:1fr;}.slots-grid{grid-template-columns:repeat(3,1fr);}
-  .gallery-section,.ba-grid{grid-template-columns:1fr;}
-  .footer-inner{grid-template-columns:1fr;}footer{padding:28px 18px;}
-  .footer-bottom{flex-direction:column;text-align:center;}
-  .stats-bar{flex-wrap:wrap;}.stat-item{flex:0 0 50%;border-bottom:1px solid var(--border);}
-  #ai-panel{width:calc(100vw - 36px);right:18px;bottom:90px;}
-  .social-inner{flex-direction:column;}.quote-bar{padding:18px;}
-  .quote-bar-inner{flex-direction:column;align-items:flex-start;}
-  .float-contact{bottom:20px;left:14px;}
-  .insta-grid{grid-template-columns:repeat(3,1fr);}
-  .quick-steps{flex-direction:column;align-items:flex-start;gap:16px;}
-  .quick-steps::before{display:none;}
-  .area-cities{grid-template-columns:1fr 1fr;}
+.footer-copy{font-size:.76rem;color:var(--text-muted);font-family:'Syne',sans-serif;letter-spacing:1px;}
+
+/* ── TABLET ── */
+@media(max-width:1024px){
+nav{padding:14px 24px;}
+nav.scrolled{padding:10px 24px;}
+.hero{padding:120px 24px 70px;}
+.section{padding:80px 24px;}
+.booking-section,.reviews-section,.area-section{padding:80px 24px;}
+.gallery-section,.why-section,.insta-section,.social-section,.quick-book{padding:60px 24px;}
+.booking-inner{gap:40px;}
+.services-grid{grid-template-columns:repeat(2,1fr);}
+.ps-showcase-eyebrow,.ps-showcase-title{padding-left:24px;padding-right:24px;}
+}
+
+/* ── MOBILE / iOS ── */
+@media(max-width:768px){
+nav{padding:12px 16px;}
+nav.scrolled{padding:10px 16px;}
+.nav-links{display:none;}
+.nav-logo{font-size:1.35rem;letter-spacing:2px;}
+.nav-cta{padding:8px 14px;font-size:.8rem;letter-spacing:1.5px;}
+.hero{padding:100px 16px 56px;min-height:100svh;}
+.hero-badge{display:none;}
+.hero-eyebrow{font-size:.75rem;letter-spacing:3px;margin-bottom:14px;}
+.hero-title{font-size:clamp(3.2rem,14vw,5.5rem);}
+.hero-sub{font-size:1rem;max-width:100%;margin-top:16px;}
+.hero-actions{flex-direction:column;gap:12px;margin-top:28px;}
+.btn-primary,.btn-outline{width:100%;justify-content:center;padding:14px 20px;font-size:.9rem;letter-spacing:2px;}
+.stats-bar{display:grid;grid-template-columns:1fr 1fr;}
+.stat-item{flex:none;padding:20px 12px;border-right:none;border-bottom:1px solid var(--border);}
+.stat-item:nth-child(odd){border-right:1px solid var(--border);}
+.stat-item:nth-child(3),.stat-item:nth-child(4){border-bottom:none;}
+.stat-num{font-size:2rem;}
+.stat-label{font-size:.7rem;letter-spacing:1.5px;}
+.section{padding:52px 16px;}
+.section-title{font-size:clamp(1.8rem,8vw,2.8rem);margin-bottom:28px;}
+.section-eyebrow{font-size:.75rem;letter-spacing:3.5px;}
+.quick-book{padding:48px 16px;}
+.quick-steps{flex-direction:column;align-items:flex-start;gap:20px;}
+.quick-steps::before{display:none;}
+.quick-step{flex-direction:row;align-items:center;gap:16px;width:100%;}
+.qs-num{width:44px;height:44px;font-size:1.2rem;flex-shrink:0;}
+.qs-label{font-size:.88rem;text-align:left;}
+.qs-sub{font-size:.8rem;text-align:left;}
+.services-grid{grid-template-columns:1fr;}
+.service-card{padding:24px 20px;}
+.service-name{font-size:1.15rem;}
+.service-desc{font-size:.92rem;}
+.quote-bar{padding:16px;}
+.quote-bar-inner{flex-direction:column;align-items:stretch;gap:12px;}
+.qb-select{width:100%;min-width:unset;}
+.qb-result{margin-left:0;}
+.quote-bar-inner .btn-primary{width:100%;justify-content:center;}
+.why-section{padding:48px 16px;}
+.why-grid{grid-template-columns:1fr;}
+.why-card{padding:20px 16px;}
+.gallery-section{padding:48px 16px;}
+.ba-grid{grid-template-columns:1fr;gap:16px;}
+.booking-section{padding:48px 16px;}
+.booking-inner{grid-template-columns:1fr;gap:32px;}
+.vehicle-grid{grid-template-columns:1fr 1fr;gap:8px;}
+.form-grid{grid-template-columns:1fr;}
+.slots-grid{grid-template-columns:repeat(2,1fr);gap:6px;}
+.slot{padding:10px 4px;font-size:.82rem;}
+.addons-grid{grid-template-columns:1fr;}
+.payment-methods{gap:6px;}
+.pay-btn{min-width:60px;padding:10px 4px;font-size:.72rem;}
+.cal-day{padding:8px 2px;font-size:.8rem;}
+.cal-day-name{font-size:.65rem;}
+.reviews-section{padding:48px 16px;}
+.google-badge{flex-wrap:wrap;gap:14px;padding:16px;}
+.reviews-grid{grid-template-columns:1fr;}
+.review-card{padding:20px 16px;}
+.review-form-wrap{max-width:100%;}
+.area-section{padding:48px 16px;}
+.area-inner{grid-template-columns:1fr;gap:28px;}
+.area-cities{grid-template-columns:1fr 1fr;gap:8px;}
+.area-city{padding:10px 12px;font-size:.82rem;}
+/* Photo showcase mobile */
+.ps-photo-strip{grid-template-columns:1fr;}
+.ps-photo-item,.ps-photo-item.ps-photo-tall{aspect-ratio:16/9;}
+.ps-showcase-eyebrow{padding:28px 16px 10px;}
+.ps-showcase-title{padding:0 16px 18px;}
+.insta-section{padding:48px 16px;}
+.insta-grid{grid-template-columns:repeat(3,1fr);gap:3px;}
+.social-section{padding:40px 16px;}
+.social-inner{flex-direction:column;align-items:flex-start;gap:16px;}
+footer{padding:36px 16px;}
+.footer-inner{grid-template-columns:1fr;gap:28px;}
+.footer-bottom{flex-direction:column;text-align:center;gap:8px;}
+.float-contact{bottom:16px;left:12px;gap:6px;}
+.float-btn{padding:9px 12px;font-size:.72rem;letter-spacing:1.5px;}
+#ai-panel{width:calc(100vw - 24px);right:12px;bottom:86px;}
+#ai-btn{bottom:20px;right:16px;width:48px;height:48px;}
+#toast{right:12px;min-width:200px;max-width:calc(100vw - 24px);}
+}
+
+@media(max-width:390px){
+.hero-title{font-size:clamp(2.8rem,13vw,4rem);}
+.hero-sub{font-size:.93rem;}
+.vehicle-grid{grid-template-columns:1fr;}
+.stats-bar{grid-template-columns:1fr 1fr;}
+.stat-num{font-size:1.75rem;}
+.insta-grid{grid-template-columns:repeat(2,1fr);}
+.float-btn{font-size:.68rem;padding:8px 10px;}
 }
 </style>
+
 </head>
 <body>
 
-<!-- FLOATING CALL / TEXT -->
 <div class="float-contact">
-  <a href="tel:+(561)-341-1741" class="float-btn float-call">📞 Call Now</a>
-  <a href="sms:+(561)-341-1741" class="float-btn float-text">💬 Text Us</a>
+  <a href="tel:+15613411741" class="float-btn float-call">📞 Call Now</a>
+  <a href="sms:+15613411741" class="float-btn float-text">💬 Text Us</a>
 </div>
 
 <nav id="nav">
@@ -352,7 +471,6 @@ footer{padding:48px;border-top:1px solid var(--border);}
   <button class="nav-cta" onclick="document.getElementById('booking').scrollIntoView({behavior:'smooth'})">Book Now</button>
 </nav>
 
-<!-- HERO -->
 <section class="hero" id="home">
   <div class="hero-bg"></div>
   <div class="hero-grid"></div>
@@ -362,25 +480,23 @@ footer{padding:48px;border-top:1px solid var(--border);}
   <p class="hero-sub">Premium mobile auto detailing serving Palm Beach County. We come to you — home, office, anywhere. Book online 24/7.</p>
   <div class="hero-actions">
     <button class="btn-primary" onclick="document.getElementById('booking').scrollIntoView({behavior:'smooth'})">Book Online — 24/7</button>
-    <a href="tel:+15610000000" class="btn-outline" style="text-decoration:none;display:flex;align-items:center;gap:8px;">📞 Call Us</a>
+    <a href="tel:+15613411741" class="btn-outline">📞 Call Us</a>
   </div>
   <div class="hero-badge">
     <div class="hero-badge-inner">
-      <span class="num">5★</span>
+      <span class="num">4★+</span>
       <span class="lbl">Google<br>Rating</span>
     </div>
   </div>
 </section>
 
-<!-- STATS -->
 <div class="stats-bar">
-  <div class="stat-item"><span class="stat-num">2,400+</span><span class="stat-label">Cars Detailed</span></div>
-  <div class="stat-item"><span class="stat-num">8 YRS</span><span class="stat-label">In Business</span></div>
-  <div class="stat-item"><span class="stat-num">5.0★</span><span class="stat-label">Google Rating</span></div>
+  <div class="stat-item"><span class="stat-num">2 YRS</span><span class="stat-label">In Business</span></div>
+  <div class="stat-item"><span class="stat-num">150+</span><span class="stat-label">Cars Detailed</span></div>
+  <div class="stat-item"><span class="stat-num">4★+</span><span class="stat-label">Google Rating</span></div>
   <div class="stat-item"><span class="stat-num">24/7</span><span class="stat-label">Online Booking</span></div>
 </div>
 
-<!-- BOOK IN 30 SECONDS -->
 <div class="quick-book">
   <div class="quick-inner">
     <div class="section-eyebrow" style="text-align:center;">Simple Process</div>
@@ -394,7 +510,6 @@ footer{padding:48px;border-top:1px solid var(--border);}
   </div>
 </div>
 
-<!-- SERVICES -->
 <section class="section" id="services">
   <div class="section-eyebrow">What We Offer</div>
   <h2 class="section-title">Our Services</h2>
@@ -417,17 +532,17 @@ footer{padding:48px;border-top:1px solid var(--border);}
       <p class="service-desc">Complete interior + exterior. Clay bar, polish, wax, paint decontamination. The works.</p>
       <div class="service-price-wrap"><div class="service-price">from $249 <span>sedan</span></div><button class="service-book-btn" onclick="selectServiceAndBook('full')">Book →</button></div>
     </div>
-    <div class="service-card">
+    <div class="service-card coming-soon">
       <span class="service-icon">🔬</span>
       <div class="service-name">Ceramic Coating</div>
       <p class="service-desc">Long-lasting nano ceramic protection. Hydrophobic shield that keeps your paint pristine for years.</p>
-      <div class="service-price-wrap"><div class="service-price">from $599 <span>sedan</span></div><button class="service-book-btn" onclick="selectServiceAndBook('ceramic')">Book →</button></div>
+      <div class="service-price-wrap"><div class="coming-soon-badge">🚧 Coming Soon</div></div>
     </div>
-    <div class="service-card">
+    <div class="service-card coming-soon">
       <span class="service-icon">🎨</span>
       <div class="service-name">Paint Correction</div>
       <p class="service-desc">Multi-stage machine polish to eliminate swirl marks, scratches, and oxidation completely.</p>
-      <div class="service-price-wrap"><div class="service-price">from $399 <span>sedan</span></div><button class="service-book-btn" onclick="selectServiceAndBook('paint')">Book →</button></div>
+      <div class="service-price-wrap"><div class="coming-soon-badge">🚧 Coming Soon</div></div>
     </div>
     <div class="service-card">
       <span class="service-icon">🚐</span>
@@ -438,7 +553,6 @@ footer{padding:48px;border-top:1px solid var(--border);}
   </div>
 </section>
 
-<!-- LIVE INSTANT QUOTE CALCULATOR -->
 <div class="quote-bar">
   <div class="quote-bar-inner">
     <span class="qb-label">Instant Quote</span>
@@ -454,8 +568,6 @@ footer{padding:48px;border-top:1px solid var(--border);}
       <option value="49">Express Wash — $49</option>
       <option value="149">Interior Deep Clean — $149</option>
       <option value="249">Full Detail — $249</option>
-      <option value="599">Ceramic Coating — $599</option>
-      <option value="399">Paint Correction — $399</option>
       <option value="299">Fleet / SUV Package — $299</option>
     </select>
     <div class="qb-result" id="qb-result" style="display:none;">$0<span>estimated total</span></div>
@@ -463,12 +575,11 @@ footer{padding:48px;border-top:1px solid var(--border);}
   </div>
 </div>
 
-<!-- WHY CHOOSE US -->
 <section class="why-section">
   <div class="section-eyebrow">Why Us</div>
   <h2 class="section-title">Why Choose Detailed By 2Clean</h2>
   <div class="why-grid">
-    <div class="why-card"><span class="why-icon">🏆</span><div><div class="why-title">5-Star Rated</div><div class="why-desc">120+ verified Google reviews from Palm Beach County customers.</div></div></div>
+    <div class="why-card"><span class="why-icon">🏆</span><div><div class="why-title">4-Star+ Rated</div><div class="why-desc">Verified Google reviews from Palm Beach County customers. Nate takes every bit of feedback and perfects his craft to the tee.</div></div></div>
     <div class="why-card"><span class="why-icon">🔬</span><div><div class="why-title">Professional Equipment</div><div class="why-desc">Industrial-grade steamers, polishers, and pH-balanced products only.</div></div></div>
     <div class="why-card"><span class="why-icon">🛡️</span><div><div class="why-title">Paint-Safe Methods</div><div class="why-desc">We use two-bucket technique and soft microfiber — zero swirl risk.</div></div></div>
     <div class="why-card"><span class="why-icon">📱</span><div><div class="why-title">Mobile Convenience</div><div class="why-desc">We come to your home, office, or anywhere in Palm Beach County.</div></div></div>
@@ -477,48 +588,43 @@ footer{padding:48px;border-top:1px solid var(--border);}
   </div>
 </section>
 
-<!-- GALLERY — Before/After Sliders -->
 <section class="gallery-section" id="gallery">
   <div class="section-eyebrow">Our Work</div>
   <h2 class="section-title" style="margin-bottom:16px;">Before &amp; After</h2>
-  <div class="gallery-placeholder">
-    <strong>📸 Add Your Photos:</strong> Replace the placeholders below with real before/after images. Use: <code style="background:rgba(255,255,255,.06);padding:2px 6px;">&lt;img src="images/bmw-before.jpg"&gt;</code> inside .ba-before and .ba-after divs.
-  </div>
   <div class="ba-grid">
     <div class="ba-item">
-      <div class="ba-slider" data-slider="0">
-        <div class="ba-img ba-before" style="background:linear-gradient(135deg,#1a0e0e,#2a1818);">🚗<br><small style="font-size:.5rem;color:#666;margin-top:8px;display:block;">BEFORE PHOTO</small></div>
-        <div class="ba-img ba-after" style="background:linear-gradient(135deg,#050a18,#0a1535);">🚗<br><small style="font-size:.5rem;color:#3d6fff;margin-top:8px;display:block;">AFTER PHOTO</small></div>
+      <div class="ba-slider">
+        <div class="ba-img ba-before"><img src="IMG_6303.jpg" alt="Toyota wheel before detailing"/></div>
+        <div class="ba-img ba-after"><img src="IMG_6304.jpg" alt="Toyota wheel after detailing"/></div>
         <div class="ba-label-before">Before</div>
         <div class="ba-label-after">After</div>
         <div class="ba-handle"></div>
       </div>
-      <div class="ba-caption"><strong>BMW 5 Series</strong> · Full Detail + Paint Correction</div>
+      <div class="ba-caption"><strong>Toyota Camry</strong> · Wheel &amp; Tire Deep Clean</div>
     </div>
     <div class="ba-item">
-      <div class="ba-slider" data-slider="1">
-        <div class="ba-img ba-before" style="background:linear-gradient(135deg,#0e1a10,#182a18);">🏎️<br><small style="font-size:.5rem;color:#666;margin-top:8px;display:block;">BEFORE PHOTO</small></div>
-        <div class="ba-img ba-after" style="background:linear-gradient(135deg,#050a18,#0a1535);">🏎️<br><small style="font-size:.5rem;color:#3d6fff;margin-top:8px;display:block;">AFTER PHOTO</small></div>
+      <div class="ba-slider">
+        <div class="ba-img ba-before"><img src="IMG_6334.jpg" alt="Infiniti interior before detailing"/></div>
+        <div class="ba-img ba-after"><img src="IMG_6335.jpg" alt="Infiniti interior after detailing"/></div>
         <div class="ba-label-before">Before</div>
         <div class="ba-label-after">After</div>
         <div class="ba-handle"></div>
       </div>
-      <div class="ba-caption"><strong>Porsche 911</strong> · Ceramic Coating</div>
+      <div class="ba-caption"><strong>Infiniti Q50</strong> · Interior Deep Clean</div>
     </div>
     <div class="ba-item">
-      <div class="ba-slider" data-slider="2">
-        <div class="ba-img ba-before" style="background:linear-gradient(135deg,#1a1000,#2a1e00);">🛻<br><small style="font-size:.5rem;color:#666;margin-top:8px;display:block;">BEFORE PHOTO</small></div>
-        <div class="ba-img ba-after" style="background:linear-gradient(135deg,#050a18,#0a1535);">🛻<br><small style="font-size:.5rem;color:#3d6fff;margin-top:8px;display:block;">AFTER PHOTO</small></div>
+      <div class="ba-slider">
+        <div class="ba-img ba-before"><img src="IMG_6337.jpg" alt="Infiniti wheel before detailing"/></div>
+        <div class="ba-img ba-after"><img src="IMG_6336.jpg" alt="Infiniti full detail after"/></div>
         <div class="ba-label-before">Before</div>
         <div class="ba-label-after">After</div>
         <div class="ba-handle"></div>
       </div>
-      <div class="ba-caption"><strong>Ford F-150</strong> · Interior Deep Clean + Ozone</div>
+      <div class="ba-caption"><strong>Infiniti Q50</strong> · Full Detail + Wheel Restore</div>
     </div>
   </div>
 </section>
 
-<!-- BOOKING ENGINE -->
 <section class="booking-section" id="booking">
   <div class="booking-inner">
     <div class="booking-info">
@@ -530,7 +636,7 @@ footer{padding:48px;border-top:1px solid var(--border);}
         <li>Live calendar, always up to date</li>
         <li>SMS &amp; email confirmation instantly</li>
         <li>24-hour appointment reminder</li>
-        <li>Google Calendar sync built in</li>
+        <li>Google Calendar invite sent to you &amp; Nate</li>
         <li>No payment until service is complete</li>
         <li>Stripe · PayPal · Apple Pay · Cash</li>
         <li>100% satisfaction guarantee</li>
@@ -544,7 +650,6 @@ footer{padding:48px;border-top:1px solid var(--border);}
           <div class="sp-item" id="sp3">3</div><div class="sp-line"></div>
           <div class="sp-item" id="sp4">4</div>
         </div>
-        <!-- STEP 1 -->
         <div class="form-step" id="step1">
           <div class="step-label">Step 1 — Select Your Vehicle</div>
           <div class="vehicle-grid">
@@ -555,7 +660,6 @@ footer{padding:48px;border-top:1px solid var(--border);}
           </div>
           <button class="btn-primary" style="width:100%;padding:11px;" onclick="goStep(2)">Next: Choose Service →</button>
         </div>
-        <!-- STEP 2 -->
         <div class="form-step" id="step2" style="display:none;">
           <div class="step-label">Step 2 — Service &amp; Add-Ons</div>
           <div class="form-row">
@@ -565,8 +669,6 @@ footer{padding:48px;border-top:1px solid var(--border);}
               <option value="wash">Express Wash</option>
               <option value="interior">Interior Deep Clean</option>
               <option value="full">Full Detail</option>
-              <option value="ceramic">Ceramic Coating</option>
-              <option value="paint">Paint Correction</option>
               <option value="fleet">Fleet / SUV Package</option>
             </select>
           </div>
@@ -586,11 +688,10 @@ footer{padding:48px;border-top:1px solid var(--border);}
             <div class="ps-note">Final price confirmed at service.</div>
           </div>
           <div style="display:flex;gap:8px;margin-top:12px;">
-            <button class="btn-outline" style="flex:1;padding:9px;" onclick="goStep(1)">← Back</button>
+            <button class="btn-outline" style="flex:1;padding:9px;clip-path:none;" onclick="goStep(1)">← Back</button>
             <button class="btn-primary" style="flex:2;padding:9px;" onclick="goStep(3)">Next: Pick Date →</button>
           </div>
         </div>
-        <!-- STEP 3 -->
         <div class="form-step" id="step3" style="display:none;">
           <div class="step-label">Step 3 — Pick Date &amp; Time</div>
           <div class="calendar-wrap">
@@ -601,7 +702,7 @@ footer{padding:48px;border-top:1px solid var(--border);}
             </div>
             <div class="cal-grid" id="cal-grid"></div>
             <div class="cal-legend">
-              <div class="cal-legend-item"><div class="cal-legend-dot" style="background:var(--blue-bright);"></div>Available</div>
+              <div class="cal-legend-item"><div class="cal-legend-dot" style="background:var(--blue-bright);border:1px solid var(--border);"></div>Available</div>
               <div class="cal-legend-item"><div class="cal-legend-dot" style="background:#333;"></div>Booked</div>
               <div class="cal-legend-item"><div class="cal-legend-dot" style="background:var(--blue);"></div>Selected</div>
             </div>
@@ -613,17 +714,16 @@ footer{padding:48px;border-top:1px solid var(--border);}
           <div class="gcal-box" id="gcal-box" style="display:none;">
             <div class="gcal-inner">
               <span class="gcal-icon">📅</span>
-              <div><div class="gcal-title">Sync to Google Calendar</div><div class="gcal-sub">Add reminder to your calendar</div></div>
+              <div><div class="gcal-title">Sync to Google Calendar</div><div class="gcal-sub">Add reminder to your calendar now</div></div>
               <button class="gcal-btn" onclick="addToGoogleCalendar()">Sync →</button>
             </div>
             <div class="gcal-status" id="gcal-status" style="display:none;"></div>
           </div>
           <div style="display:flex;gap:8px;margin-top:12px;">
-            <button class="btn-outline" style="flex:1;padding:9px;" onclick="goStep(2)">← Back</button>
+            <button class="btn-outline" style="flex:1;padding:9px;clip-path:none;" onclick="goStep(2)">← Back</button>
             <button class="btn-primary" style="flex:2;padding:9px;" onclick="goStep(4)">Next: Your Info →</button>
           </div>
         </div>
-        <!-- STEP 4 -->
         <div class="form-step" id="step4" style="display:none;">
           <div class="step-label">Step 4 — Your Info &amp; Payment</div>
           <div class="form-grid">
@@ -631,7 +731,8 @@ footer{padding:48px;border-top:1px solid var(--border);}
             <div class="form-row"><label>Last Name</label><input type="text" id="lname" placeholder="Doe"/></div>
           </div>
           <div class="form-row"><label>Phone * (SMS confirmation)</label><input type="tel" id="phone" placeholder="(561) 000-0000"/></div>
-          <div class="form-row"><label>Email</label><input type="email" id="email" placeholder="john@email.com"/></div>
+          <div class="form-row"><label>Email * (Google Calendar invite)</label><input type="email" id="email" placeholder="john@email.com"/></div>
+          <div class="form-row"><label>Service Address *</label><input type="text" id="address" placeholder="123 Main St, Boynton Beach FL"/></div>
           <div class="form-row"><label>Notes</label><textarea id="notes" rows="2" placeholder="Gate code, parking info, special requests..."></textarea></div>
           <div class="booking-mini-summary" id="mini-summary"></div>
           <span class="payment-label">Payment Method (charged after service)</span>
@@ -643,7 +744,7 @@ footer{padding:48px;border-top:1px solid var(--border);}
           </div>
           <div class="secure-badge">🔒 SSL encrypted · No charge until service complete</div>
           <div style="display:flex;gap:8px;margin-top:14px;">
-            <button class="btn-outline" style="flex:1;padding:9px;" onclick="goStep(3)">← Back</button>
+            <button class="btn-outline" style="flex:1;padding:9px;clip-path:none;" onclick="goStep(3)">← Back</button>
             <button class="btn-primary" style="flex:2;padding:9px;" onclick="submitForm()">Confirm Booking →</button>
           </div>
         </div>
@@ -651,51 +752,46 @@ footer{padding:48px;border-top:1px solid var(--border);}
       <div id="formSuccess">
         <span class="success-icon">🏆</span>
         <div class="success-title">You're Booked!</div>
-        <p class="success-msg">Your appointment is confirmed. Check your phone for your SMS.</p>
+        <p class="success-msg">Your appointment is confirmed. Check your phone &amp; email.</p>
         <div class="success-sms" id="success-detail"></div>
-        <button class="gcal-btn" style="margin-top:14px;width:100%;padding:11px;" onclick="addToGoogleCalendar()">📅 Add to Google Calendar</button>
-        <p style="font-size:.77rem;color:var(--text-muted);margin-top:12px;">A 24-hour reminder will be sent automatically.</p>
+        <button class="success-gcal-btn" id="success-gcal-btn">📅 Add to Google Calendar</button>
+        <p style="font-size:.77rem;color:var(--text-muted);margin-top:12px;">A Google Calendar invite will be sent to your email. A 24-hour reminder will follow automatically.</p>
       </div>
     </div>
   </div>
 </section>
 
-<!-- REVIEWS — Google Style -->
 <section class="reviews-section" id="reviews">
   <div class="section-eyebrow">What Clients Say</div>
   <h2 class="section-title">Google Reviews</h2>
   <div class="google-badge">
     <div class="gb-logo">🔵</div>
     <div>
-      <div class="gb-score">5.0</div>
+      <div class="gb-score">4.8</div>
       <div class="gb-stars">★★★★★</div>
-      <div class="gb-count">Based on 120+ verified reviews</div>
+      <div class="gb-count">Verified Google reviews</div>
       <div class="gb-source">Google Business Profile</div>
     </div>
-    <a href="https://g.page/r/YOUR_GOOGLE_PLACE_ID/review" target="_blank" style="margin-left:auto;background:var(--blue);color:#fff;border:none;padding:10px 16px;font-family:'Barlow Condensed',sans-serif;font-size:.78rem;letter-spacing:1.5px;text-transform:uppercase;cursor:pointer;text-decoration:none;white-space:nowrap;">Leave a Review →</a>
-  </div>
-  <!-- NOTE: Replace this block with Elfsight or Google embed for live reviews -->
-  <div style="background:rgba(41,82,204,.06);border:1px dashed var(--border);padding:12px 16px;margin-bottom:28px;font-size:.82rem;color:var(--text-muted);">
-    💡 <strong style="color:var(--blue-bright)">To embed real Google Reviews:</strong> Add <code style="background:rgba(255,255,255,.06);padding:2px 6px;">&lt;script src="https://static.elfsight.com/platform/platform.js"&gt;&lt;/script&gt;</code> + your Elfsight Google Reviews widget ID here, or connect Google Business Profile.
+    <a href="https://g.page/r/YOUR_GOOGLE_PLACE_ID/review" target="_blank" style="margin-left:auto;background:var(--blue);color:#fff;border:none;padding:10px 16px;font-family:'Syne',sans-serif;font-size:.78rem;letter-spacing:1.5px;text-transform:uppercase;cursor:pointer;text-decoration:none;white-space:nowrap;">Leave a Review →</a>
   </div>
   <div class="reviews-grid" id="reviews-grid">
     <div class="review-card">
       <div class="review-stars">★★★★★</div>
-      <p class="review-text">"My car looks better than the day I bought it. The ceramic coating is absolutely insane — water just slides right off. Worth every penny."</p>
+      <p class="review-text">"My car looks better than the day I bought it. Nate was incredibly thorough and took his time to get every detail right. Absolutely worth it."</p>
       <div class="review-author">Marcus T.</div>
-      <div class="review-via">✅ Verified Google Review · Ceramic Coating</div>
+      <div class="review-via">✅ Verified Google Review · Full Detail</div>
     </div>
     <div class="review-card">
       <div class="review-stars">★★★★★</div>
-      <p class="review-text">"Booked at midnight, got SMS confirmation in minutes. Showed up on time in Lantana and left my interior spotless. These guys are the real deal."</p>
+      <p class="review-text">"Booked at midnight, got confirmation right away. Showed up on time in Lantana and left my interior spotless. Nate really does perfect his craft — these guys are the real deal."</p>
       <div class="review-author">Jasmine R.</div>
       <div class="review-via">✅ Verified Google Review · Interior Deep Clean</div>
     </div>
     <div class="review-card">
       <div class="review-stars">★★★★★</div>
-      <p class="review-text">"Paint correction on my Tesla was flawless. The swirl marks are completely gone. Best mobile detailer in Palm Beach County, period."</p>
+      <p class="review-text">"Best mobile detailer in Palm Beach County. Nate listens to feedback and keeps raising his standards. My car came back looking brand new."</p>
       <div class="review-author">Derek L.</div>
-      <div class="review-via">✅ Verified Google Review · Paint Correction</div>
+      <div class="review-via">✅ Verified Google Review · Full Detail</div>
     </div>
   </div>
   <div class="review-form-wrap">
@@ -708,8 +804,7 @@ footer{padding:48px;border-top:1px solid var(--border);}
       <div class="form-row"><label>Your Name</label><input type="text" id="r-name" placeholder="Jane D."/></div>
       <div class="form-row"><label>Service Used</label>
         <select id="r-service"><option value="">Select...</option>
-          <option>Express Wash</option><option>Interior Deep Clean</option><option>Full Detail</option>
-          <option>Ceramic Coating</option><option>Paint Correction</option><option>Fleet / SUV Package</option>
+          <option>Express Wash</option><option>Interior Deep Clean</option><option>Full Detail</option><option>Fleet / SUV Package</option>
         </select>
       </div>
     </div>
@@ -718,7 +813,6 @@ footer{padding:48px;border-top:1px solid var(--border);}
   </div>
 </section>
 
-<!-- SERVICE AREA + MAP -->
 <section class="area-section" id="area">
   <div class="area-inner">
     <div>
@@ -738,12 +832,42 @@ footer{padding:48px;border-top:1px solid var(--border);}
     </div>
     <div>
       <div class="map-wrap">
-        <iframe
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d57480.36!2d-80.09!3d26.58!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88d8d6b5aaaaaaab%3A0x1!2sLantana%2C+FL+33462!5e0!3m2!1sen!2sus!4v1"
-          width="100%" height="320" loading="lazy" allowfullscreen
-          title="Service area map — Lantana, Palm Beach County FL">
-        </iframe>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d57480.36!2d-80.09!3d26.58!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88d8d6b5aaaaaaab%3A0x1!2sLantana%2C+FL+33462!5e0!3m2!1sen!2sus!4v1" width="100%" height="320" loading="lazy" allowfullscreen title="Service area map — Lantana, Palm Beach County FL"></iframe>
         <div class="map-label">📍 1801 Hypoluxo Rd, Lantana, FL — Serving all of Palm Beach County</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════════════════════════ -->
+<!-- PHOTO SHOWCASE — Real client vehicles                       -->
+<!-- ═══════════════════════════════════════════════════════════ -->
+<section class="photo-showcase">
+  <div class="ps-showcase-eyebrow">Real Clients · Real Results</div>
+  <div class="ps-showcase-title">Our Recent Work</div>
+  <div class="ps-photo-strip">
+    <div class="ps-photo-item">
+      <img src="IMG_6286.jpeg" alt="Toyota RAV4 after full detail — Detailed By 2Clean Palm Beach County"/>
+      <div class="ps-photo-corner">Palm Beach County</div>
+      <div class="ps-photo-label">
+        <span class="ps-car">Toyota RAV4</span>
+        <span class="ps-service">Full Detail</span>
+      </div>
+    </div>
+    <div class="ps-photo-item ps-photo-tall">
+      <img src="IMG_5812.png" alt="Infiniti Q50 wash and detail — Detailed By 2Clean Lantana FL"/>
+      <div class="ps-photo-corner">Lantana, FL</div>
+      <div class="ps-photo-label">
+        <span class="ps-car">Infiniti Q50</span>
+        <span class="ps-service">Exterior Wash + Polish</span>
+      </div>
+    </div>
+    <div class="ps-photo-item">
+      <img src="IMG_2726.jpeg" alt="Toyota Sienna minivan full detail — Detailed By 2Clean"/>
+      <div class="ps-photo-corner">Palm Beach County</div>
+      <div class="ps-photo-label">
+        <span class="ps-car">Toyota Sienna</span>
+        <span class="ps-service">Full Detail</span>
       </div>
     </div>
   </div>
@@ -753,31 +877,39 @@ footer{padding:48px;border-top:1px solid var(--border);}
 <section class="insta-section" id="instagram">
   <div class="section-eyebrow">Follow Our Work</div>
   <h2 class="section-title" style="margin-bottom:4px;">@detailedby2clean</h2>
-  <p style="color:var(--text-muted);font-size:.88rem;margin-bottom:4px;">Daily before &amp; afters · Foam washes · Ceramic results · Interior transformations</p>
-  <!-- NOTE: Replace grid below with LightWidget or Elfsight Instagram Feed embed for live posts -->
-  <div style="background:rgba(41,82,204,.06);border:1px dashed var(--border);padding:10px 14px;margin-bottom:16px;font-size:.8rem;color:var(--text-muted);">
-    💡 <strong style="color:var(--blue-bright)">Live Instagram Feed:</strong> Replace the grid below with a <a href="https://lightwidget.com" target="_blank" style="color:var(--blue-bright);">LightWidget</a> or <a href="https://elfsight.com" target="_blank" style="color:var(--blue-bright);">Elfsight</a> embed after connecting your @detailedby2clean account.
-  </div>
+  <p style="color:var(--text-muted);font-size:.88rem;margin-bottom:20px;">Daily before &amp; afters · Foam washes · Interior transformations</p>
   <div class="insta-grid">
-    <div class="insta-post"><div class="insta-img" style="background:linear-gradient(135deg,#050a18,#0d1535);">🚗</div><div class="insta-overlay"><span>Before/After</span></div></div>
-    <div class="insta-post"><div class="insta-img" style="background:linear-gradient(135deg,#081505,#101f0a);">🏎️</div><div class="insta-overlay"><span>Ceramic Coat</span></div></div>
-    <div class="insta-post"><div class="insta-img" style="background:linear-gradient(135deg,#150510,#250a1a);">🚙</div><div class="insta-overlay"><span>Foam Wash</span></div></div>
-    <div class="insta-post"><div class="insta-img" style="background:linear-gradient(135deg,#0e0a00,#1e1500);">🛻</div><div class="insta-overlay"><span>Interior Detail</span></div></div>
-    <div class="insta-post"><div class="insta-img" style="background:linear-gradient(135deg,#050f14,#0a1f28);">🚐</div><div class="insta-overlay"><span>Paint Correction</span></div></div>
-    <div class="insta-post"><div class="insta-img" style="background:linear-gradient(135deg,#10050a,#201015);">🚘</div><div class="insta-overlay"><span>Full Detail</span></div></div>
+    <div class="insta-post">
+      <div class="insta-img"><img src="IMG_6286.jpeg" alt="Toyota RAV4 detail" style="width:100%;height:100%;object-fit:cover;display:block;"/></div>
+      <div class="insta-overlay"><span>Toyota RAV4</span></div>
+    </div>
+    <div class="insta-post">
+      <div class="insta-img"><img src="IMG_5812.png" alt="Infiniti Q50 wash" style="width:100%;height:100%;object-fit:cover;display:block;"/></div>
+      <div class="insta-overlay"><span>Infiniti Q50</span></div>
+    </div>
+    <div class="insta-post">
+      <div class="insta-img"><img src="IMG_2726.jpeg" alt="Toyota Sienna detail" style="width:100%;height:100%;object-fit:cover;display:block;"/></div>
+      <div class="insta-overlay"><span>Toyota Sienna</span></div>
+    </div>
+    <div class="insta-post">
+      <div class="insta-img"><img src="IMG_6286.jpeg" alt="RAV4 after detail" style="width:100%;height:100%;object-fit:cover;display:block;object-position:bottom;"/></div>
+      <div class="insta-overlay"><span>Full Detail</span></div>
+    </div>
+    <div class="insta-post">
+      <div class="insta-img"><img src="IMG_5812.png" alt="Infiniti Q50 after wash" style="width:100%;height:100%;object-fit:cover;display:block;object-position:top;"/></div>
+      <div class="insta-overlay"><span>Foam Wash</span></div>
+    </div>
+    <div class="insta-post">
+      <div class="insta-img"><img src="IMG_2726.jpeg" alt="Toyota Sienna clean" style="width:100%;height:100%;object-fit:cover;display:block;object-position:center top;"/></div>
+      <div class="insta-overlay"><span>Express Wash</span></div>
+    </div>
   </div>
-  <p class="insta-note">
-    <a href="https://instagram.com/detailedby2clean" target="_blank" style="color:var(--blue-bright);text-decoration:none;">Follow @detailedby2clean</a> for daily transformations
-  </p>
+  <p class="insta-note"><a href="https://instagram.com/detailedby2clean" target="_blank" style="color:var(--blue-bright);text-decoration:none;">Follow @detailedby2clean</a> for daily transformations</p>
 </section>
 
-<!-- SOCIAL -->
 <div class="social-section">
   <div class="social-inner">
-    <div class="social-text">
-      <h3>Find Us Online</h3>
-      <p>Reviews, results, and real-time updates.</p>
-    </div>
+    <div class="social-text"><h3>Find Us Online</h3><p>Reviews, results, and real-time updates.</p></div>
     <div class="social-links">
       <a href="https://instagram.com/detailedby2clean" target="_blank" class="social-link">📸 Instagram</a>
       <a href="#" target="_blank" class="social-link">📘 Facebook</a>
@@ -787,24 +919,23 @@ footer{padding:48px;border-top:1px solid var(--border);}
   </div>
 </div>
 
-<!-- FOOTER -->
 <footer id="contact">
   <div class="footer-inner">
     <div class="footer-col">
       <div class="footer-logo" style="margin-bottom:14px;">DETAILED BY<span> 2CLEAN</span></div>
-      <p>Premium mobile auto detailing in Lantana, FL. We come to you anywhere in Palm Beach County.</p>
+      <p>Premium mobile auto detailing in Lantana, FL. Nate comes to you anywhere in Palm Beach County.</p>
       <p style="margin-top:12px;">📍 1801 Hypoluxo Rd, Lantana, FL</p>
       <p><a href="mailto:desktech88@gmail.com">✉️ desktech88@gmail.com</a></p>
-      <p><a href="tel:+15610000000">📞 Call / Text Us</a></p>
+      <p><a href="tel:+15613411741">📞 (561) 341-1741</a></p>
     </div>
     <div class="footer-col">
       <h4>Services</h4>
       <a href="#services">Express Wash — from $49</a>
       <a href="#services">Interior Deep Clean — from $149</a>
       <a href="#services">Full Detail — from $249</a>
-      <a href="#services">Ceramic Coating — from $599</a>
-      <a href="#services">Paint Correction — from $399</a>
       <a href="#services">Fleet / SUV — from $299</a>
+      <a href="#services" style="color:var(--gold);">Ceramic Coating — Coming Soon</a>
+      <a href="#services" style="color:var(--gold);">Paint Correction — Coming Soon</a>
     </div>
     <div class="footer-col">
       <h4>Service Area</h4>
@@ -840,13 +971,13 @@ footer{padding:48px;border-top:1px solid var(--border);}
     <button id="ai-close" onclick="toggleAI()">✕</button>
   </div>
   <div class="ai-messages" id="ai-messages">
-    <div class="ai-msg bot">Hey! 👋 I'm your Detailed By 2Clean assistant. I serve Lantana, Lake Worth, Boynton Beach &amp; all of Palm Beach County. Ask me anything!</div>
+    <div class="ai-msg bot">Hey! 👋 I'm Nate's assistant for Detailed By 2Clean. I serve Lantana, Lake Worth, Boynton Beach &amp; all of Palm Beach County. Ask me anything!</div>
   </div>
   <div class="ai-quick" id="ai-quick">
     <button onclick="askQuick('What services do you offer?')">Services</button>
     <button onclick="askQuick('What areas do you serve?')">Service Area</button>
     <button onclick="askQuick('How much does a full detail cost?')">Pricing</button>
-    <button onclick="askQuick('Do you offer ceramic coating?')">Ceramic</button>
+    <button onclick="askQuick('What makes Nate different?')">Why Nate?</button>
   </div>
   <div class="ai-input-row">
     <input type="text" id="ai-input" placeholder="Ask me anything..." onkeydown="if(event.key==='Enter')sendAI()"/>
@@ -855,285 +986,374 @@ footer{padding:48px;border-top:1px solid var(--border);}
 </div>
 
 <script>
-// NAV
-const navEl=document.getElementById('nav');
-window.addEventListener('scroll',()=>navEl.classList.toggle('scrolled',window.scrollY>60));
+const navEl = document.getElementById('nav');
+window.addEventListener('scroll', () => navEl.classList.toggle('scrolled', window.scrollY > 60));
 
-// PRICING DATA
-const BASE_PRICES={wash:49,interior:149,full:249,ceramic:599,paint:399,fleet:299};
-const BASE_NAMES={wash:'Express Wash',interior:'Interior Deep Clean',full:'Full Detail',ceramic:'Ceramic Coating',paint:'Paint Correction',fleet:'Fleet / SUV Package'};
-const VEHICLE_UPCHARGE={sedan:0,suv:20,truck:30,luxury:50};
-const VEHICLE_NAMES={sedan:'Sedan / Coupe',suv:'SUV / Crossover',truck:'Truck / Van',luxury:'Luxury / Exotic'};
-const ADDON_PRICES={ozone:40,engine:60,headlight:35,sealant:55,leather:30,tint:25};
-const ADDON_NAMES={ozone:'Ozone Treatment',engine:'Engine Bay Clean',headlight:'Headlight Restore',sealant:'Paint Sealant',leather:'Leather Condition',tint:'Tint Safe Clean'};
+const BASE_PRICES  = {wash:49, interior:149, full:249, fleet:299};
+const BASE_NAMES   = {wash:'Express Wash', interior:'Interior Deep Clean', full:'Full Detail', fleet:'Fleet / SUV Package'};
+const VEHICLE_UP   = {sedan:0, suv:20, truck:30, luxury:50};
+const VEHICLE_NAMES= {sedan:'Sedan / Coupe', suv:'SUV / Crossover', truck:'Truck / Van', luxury:'Luxury / Exotic'};
+const ADDON_PRICES = {ozone:40, engine:60, headlight:35, sealant:55, leather:30, tint:25};
+const ADDON_NAMES  = {ozone:'Ozone Treatment', engine:'Engine Bay Clean', headlight:'Headlight Restore', sealant:'Paint Sealant', leather:'Leather Condition', tint:'Tint Safe Clean'};
 
-let selectedVehicle=null, currentStep=1;
+let selectedVehicle = null, currentStep = 1;
 
-// INSTANT QUOTE CALCULATOR
-function calcQuote(){
-  const v=document.getElementById('qb-vehicle').value;
-  const s=document.getElementById('qb-service').value;
-  const r=document.getElementById('qb-result');
-  if(v===''||s===''){r.style.display='none';return;}
-  const total=parseInt(s)+parseInt(v);
-  r.innerHTML='$'+total+'<span>estimated total</span>';
-  r.style.display='block';
+function calcQuote() {
+  const v = document.getElementById('qb-vehicle').value;
+  const s = document.getElementById('qb-service').value;
+  const r = document.getElementById('qb-result');
+  if (!v || !s) { r.style.display = 'none'; return; }
+  r.innerHTML = '$' + (parseInt(s) + parseInt(v)) + '<span>estimated total</span>';
+  r.style.display = 'block';
 }
 
-// STEP NAV
-function goStep(n){
-  if(n>currentStep){
-    if(currentStep===1&&!selectedVehicle){showToast('Please select your vehicle type.',true);return;}
-    if(currentStep===2&&!document.getElementById('service').value){showToast('Please select a service.',true);return;}
-    if(currentStep===3&&!selectedDate){showToast('Please select a date.',true);return;}
-    if(currentStep===3&&!selectedTime){showToast('Please select a time slot.',true);return;}
+function goStep(n) {
+  if (n > currentStep) {
+    if (currentStep === 1 && !selectedVehicle)                           { showToast('Please select your vehicle type.', true); return; }
+    if (currentStep === 2 && !document.getElementById('service').value)  { showToast('Please select a service.', true); return; }
+    if (currentStep === 3 && !selectedDate)                              { showToast('Please select a date.', true); return; }
+    if (currentStep === 3 && !selectedTime)                              { showToast('Please select a time slot.', true); return; }
   }
-  for(let i=1;i<=4;i++){
-    const s=document.getElementById('step'+i);
-    if(s)s.style.display=(i===n)?'block':'none';
+  for (let i = 1; i <= 4; i++) {
+    const s = document.getElementById('step' + i);
+    if (s) s.style.display = (i === n) ? 'block' : 'none';
+    const sp = document.getElementById('sp' + i);
+    if (!sp) continue;
+    sp.classList.remove('active', 'done');
+    if (i < n) sp.classList.add('done');
+    else if (i === n) sp.classList.add('active');
   }
-  for(let i=1;i<=4;i++){
-    const sp=document.getElementById('sp'+i);
-    if(!sp)continue;
-    sp.classList.remove('active','done');
-    if(i<n)sp.classList.add('done');
-    else if(i===n)sp.classList.add('active');
-  }
-  currentStep=n;
-  if(n===3)renderCalendar();
-  if(n===4)renderMiniSummary();
+  currentStep = n;
+  if (n === 3) renderCalendar();
+  if (n === 4) renderMiniSummary();
 }
 
-// VEHICLE SELECT
-function selectVehicle(el,type){
-  selectedVehicle=type;
-  document.querySelectorAll('.vehicle-btn').forEach(b=>b.classList.remove('selected'));
+function selectVehicle(el, type) {
+  selectedVehicle = type;
+  document.querySelectorAll('.vehicle-btn').forEach(b => b.classList.remove('selected'));
   el.classList.add('selected');
   updatePricing();
 }
 
-// PRICING
-function updatePricing(){
-  const svcVal=document.getElementById('service').value;
-  if(!svcVal||!selectedVehicle){document.getElementById('price-summary').style.display='none';return;}
-  const basePrice=BASE_PRICES[svcVal]||0;
-  const vUp=VEHICLE_UPCHARGE[selectedVehicle]||0;
-  const addons=Array.from(document.querySelectorAll('.addons-grid input:checked'));
-  const addonTotal=addons.reduce((s,e)=>s+(ADDON_PRICES[e.value]||0),0);
-  const total=basePrice+vUp+addonTotal;
-  let html=`<div class="ps-line"><span>${BASE_NAMES[svcVal]}</span><span>$${basePrice}</span></div>`;
-  if(vUp>0)html+=`<div class="ps-line"><span>${VEHICLE_NAMES[selectedVehicle]} upcharge</span><span>+$${vUp}</span></div>`;
-  addons.forEach(e=>{html+=`<div class="ps-line"><span>${ADDON_NAMES[e.value]}</span><span>+$${ADDON_PRICES[e.value]}</span></div>`;});
-  document.getElementById('ps-lines').innerHTML=html;
-  document.getElementById('ps-total-val').textContent='$'+total;
-  document.getElementById('price-summary').style.display='block';
+function updatePricing() {
+  const svc = document.getElementById('service').value;
+  if (!svc || !selectedVehicle) { document.getElementById('price-summary').style.display = 'none'; return; }
+  const base  = BASE_PRICES[svc] || 0;
+  const vUp   = VEHICLE_UP[selectedVehicle] || 0;
+  const addons = Array.from(document.querySelectorAll('.addons-grid input:checked'));
+  const addonTotal = addons.reduce((s, e) => s + (ADDON_PRICES[e.value] || 0), 0);
+  const total = base + vUp + addonTotal;
+  let html = `<div class="ps-line"><span>${BASE_NAMES[svc]}</span><span>$${base}</span></div>`;
+  if (vUp > 0) html += `<div class="ps-line"><span>${VEHICLE_NAMES[selectedVehicle]} upcharge</span><span>+$${vUp}</span></div>`;
+  addons.forEach(e => { html += `<div class="ps-line"><span>${ADDON_NAMES[e.value]}</span><span>+$${ADDON_PRICES[e.value]}</span></div>`; });
+  document.getElementById('ps-lines').innerHTML = html;
+  document.getElementById('ps-total-val').textContent = '$' + total;
+  document.getElementById('price-summary').style.display = 'block';
 }
 
-function renderMiniSummary(){
-  const svcVal=document.getElementById('service').value;
-  if(!svcVal)return;
-  const base=BASE_PRICES[svcVal]||0,vUp=VEHICLE_UPCHARGE[selectedVehicle]||0;
-  const addons=Array.from(document.querySelectorAll('.addons-grid input:checked'));
-  const addonTotal=addons.reduce((s,e)=>s+(ADDON_PRICES[e.value]||0),0);
-  const total=base+vUp+addonTotal;
-  const addonNames=addons.map(e=>ADDON_NAMES[e.value]).join(', ');
-  const dateStr=selectedDate?selectedDate.toLocaleDateString('en-US',{weekday:'short',month:'short',day:'numeric'}):'—';
-  document.getElementById('mini-summary').innerHTML=
-    '<strong>Booking Summary</strong><br>'+
-    'Vehicle: '+(VEHICLE_NAMES[selectedVehicle]||'—')+'<br>'+
-    'Service: '+BASE_NAMES[svcVal]+(addonNames?' + '+addonNames:'')+'<br>'+
-    'Date: '+dateStr+' at '+(selectedTime||'—')+'<br>'+
-    '<strong style="color:var(--blue-bright)">Est. Total: $'+total+'</strong>';
+function renderMiniSummary() {
+  const svc = document.getElementById('service').value;
+  if (!svc) return;
+  const base = BASE_PRICES[svc] || 0, vUp = VEHICLE_UP[selectedVehicle] || 0;
+  const addons = Array.from(document.querySelectorAll('.addons-grid input:checked'));
+  const total  = base + vUp + addons.reduce((s, e) => s + (ADDON_PRICES[e.value] || 0), 0);
+  const addonNames = addons.map(e => ADDON_NAMES[e.value]).join(', ');
+  const dateStr = selectedDate ? selectedDate.toLocaleDateString('en-US', {weekday:'short', month:'short', day:'numeric'}) : '—';
+  document.getElementById('mini-summary').innerHTML =
+    '<strong>Booking Summary</strong><br>' +
+    'Vehicle: ' + (VEHICLE_NAMES[selectedVehicle] || '—') + '<br>' +
+    'Service: ' + BASE_NAMES[svc] + (addonNames ? ' + ' + addonNames : '') + '<br>' +
+    'Date: ' + dateStr + ' at ' + (selectedTime || '—') + '<br>' +
+    '<strong style="color:var(--blue-bright)">Est. Total: $' + total + '</strong>';
 }
 
-// CALENDAR
-let currentMonth,currentYear,selectedDate=null,selectedTime=null;
-const bookedDates=new Set();
-(function(){const now=new Date();const y=now.getFullYear(),m=now.getMonth();
-  [3,7,11,14,18,22].forEach(d=>{const dd=new Date(y,m,d);if(dd>=now)bookedDates.add(y+'-'+m+'-'+d);});
+let currentMonth, currentYear, selectedDate = null, selectedTime = null;
+const bookedDates = new Set();
+(function () {
+  const now = new Date(), y = now.getFullYear(), m = now.getMonth();
+  [3, 7, 11, 14, 18, 22].forEach(d => {
+    if (new Date(y, m, d) >= now) bookedDates.add(y + '-' + m + '-' + d);
+  });
 })();
-function initCalendar(){const now=new Date();currentMonth=now.getMonth();currentYear=now.getFullYear();}
-function renderCalendar(){
-  const months=['January','February','March','April','May','June','July','August','September','October','November','December'];
-  document.getElementById('cal-month-label').textContent=months[currentMonth]+' '+currentYear;
-  const grid=document.getElementById('cal-grid');grid.innerHTML='';
-  ['Su','Mo','Tu','We','Th','Fr','Sa'].forEach(d=>{const el=document.createElement('div');el.className='cal-day-name';el.textContent=d;grid.appendChild(el);});
-  const firstDay=new Date(currentYear,currentMonth,1).getDay();
-  const daysInMonth=new Date(currentYear,currentMonth+1,0).getDate();
-  const today=new Date();today.setHours(0,0,0,0);
-  for(let i=0;i<firstDay;i++){const el=document.createElement('div');el.className='cal-day empty';grid.appendChild(el);}
-  for(let d=1;d<=daysInMonth;d++){
-    const el=document.createElement('div');const date=new Date(currentYear,currentMonth,d);
-    const key=currentYear+'-'+currentMonth+'-'+d;
-    const isSel=selectedDate&&selectedDate.getDate()===d&&selectedDate.getMonth()===currentMonth&&selectedDate.getFullYear()===currentYear;
-    if(date<today){el.className='cal-day past';}
-    else if(bookedDates.has(key)){el.className='cal-day booked';}
-    else{
-      el.className='cal-day available'+(isSel?' selected':'')+(date.toDateString()===today.toDateString()?' today':'');
-      el.onclick=(function(d2){return function(){selectDate(new Date(currentYear,currentMonth,d2));}})(d);
+
+function initCalendar() {
+  const now = new Date();
+  currentMonth = now.getMonth();
+  currentYear  = now.getFullYear();
+}
+
+function renderCalendar() {
+  const months = ['January','February','March','April','May','June','July','August','September','October','November','December'];
+  document.getElementById('cal-month-label').textContent = months[currentMonth] + ' ' + currentYear;
+  const grid = document.getElementById('cal-grid');
+  grid.innerHTML = '';
+  ['Su','Mo','Tu','We','Th','Fr','Sa'].forEach(d => {
+    const el = document.createElement('div');
+    el.className = 'cal-day-name';
+    el.textContent = d;
+    grid.appendChild(el);
+  });
+  const firstDay    = new Date(currentYear, currentMonth, 1).getDay();
+  const daysInMonth = new Date(currentYear, currentMonth + 1, 0).getDate();
+  const today       = new Date(); today.setHours(0, 0, 0, 0);
+  for (let i = 0; i < firstDay; i++) {
+    const el = document.createElement('div'); el.className = 'cal-day empty'; grid.appendChild(el);
+  }
+  for (let d = 1; d <= daysInMonth; d++) {
+    const el   = document.createElement('div');
+    const date = new Date(currentYear, currentMonth, d);
+    const key  = currentYear + '-' + currentMonth + '-' + d;
+    const isSel = selectedDate &&
+      selectedDate.getDate() === d &&
+      selectedDate.getMonth() === currentMonth &&
+      selectedDate.getFullYear() === currentYear;
+    if (date < today) {
+      el.className = 'cal-day past';
+    } else if (bookedDates.has(key)) {
+      el.className = 'cal-day booked';
+    } else {
+      el.className = 'cal-day available' +
+        (isSel ? ' selected' : '') +
+        (date.toDateString() === today.toDateString() ? ' today' : '');
+      el.onclick = (function (d2) {
+        return function () { selectDate(new Date(currentYear, currentMonth, d2)); };
+      })(d);
     }
-    el.textContent=d;grid.appendChild(el);
+    el.textContent = d;
+    grid.appendChild(el);
   }
 }
-function changeMonth(dir){
-  currentMonth+=dir;
-  if(currentMonth>11){currentMonth=0;currentYear++;}
-  if(currentMonth<0){currentMonth=11;currentYear--;}
+
+function changeMonth(dir) {
+  currentMonth += dir;
+  if (currentMonth > 11) { currentMonth = 0; currentYear++; }
+  if (currentMonth < 0)  { currentMonth = 11; currentYear--; }
   renderCalendar();
 }
-function selectDate(date){
-  selectedDate=date;selectedTime=null;renderCalendar();
-  document.getElementById('selected-date-label').textContent=date.toLocaleDateString('en-US',{weekday:'long',month:'long',day:'numeric'});
+
+function selectDate(date) {
+  selectedDate = date;
+  selectedTime = null;
+  renderCalendar();
+  document.getElementById('selected-date-label').textContent =
+    date.toLocaleDateString('en-US', {weekday:'long', month:'long', day:'numeric'});
   renderTimeSlots();
-  document.getElementById('time-slots-wrap').style.display='block';
-  document.getElementById('gcal-box').style.display='none';
+  document.getElementById('time-slots-wrap').style.display = 'block';
+  document.getElementById('gcal-box').style.display = 'none';
 }
-const allSlots=['8:00 AM','9:00 AM','10:00 AM','11:00 AM','1:00 PM','2:00 PM','3:00 PM','4:00 PM'];
-const takenSlots=['10:00 AM','2:00 PM'];
-function renderTimeSlots(){
-  const grid=document.getElementById('slots-grid');grid.innerHTML='';
-  allSlots.forEach(t=>{
-    const el=document.createElement('div');
-    el.className='slot '+(takenSlots.includes(t)?'taken':'open');
-    el.textContent=t;
-    if(!takenSlots.includes(t))el.onclick=(function(t2){return function(){
-      selectedTime=t2;
-      document.querySelectorAll('.slot').forEach(s=>s.classList.remove('sel'));
-      el.classList.add('sel');
-      document.getElementById('gcal-box').style.display='block';
-    };})(t);
+
+const allSlots   = ['8:00 AM','9:00 AM','10:00 AM','11:00 AM','1:00 PM','2:00 PM','3:00 PM','4:00 PM'];
+const takenSlots = ['10:00 AM','2:00 PM'];
+
+function renderTimeSlots() {
+  const grid = document.getElementById('slots-grid');
+  grid.innerHTML = '';
+  allSlots.forEach(t => {
+    const el = document.createElement('div');
+    const taken = takenSlots.includes(t);
+    el.className = 'slot ' + (taken ? 'taken' : 'open');
+    el.textContent = t;
+    if (!taken) {
+      el.onclick = (function (t2, elem) {
+        return function () {
+          selectedTime = t2;
+          document.querySelectorAll('.slot').forEach(s => s.classList.remove('sel'));
+          elem.classList.add('sel');
+          document.getElementById('gcal-box').style.display = 'block';
+        };
+      })(t, el);
+    }
     grid.appendChild(el);
   });
 }
 
-// SERVICE PRE-SELECT
-function selectServiceAndBook(val){
-  document.getElementById('service').value=val;
+function selectServiceAndBook(val) {
+  document.getElementById('service').value = val;
   updatePricing();
   document.getElementById('booking').scrollIntoView({behavior:'smooth'});
 }
 
-// GOOGLE CALENDAR
-function addToGoogleCalendar(){
-  if(!selectedDate||!selectedTime){showToast('Please select a date and time first.',true);return;}
-  const svcVal=document.getElementById('service').value;
-  const svcName=svcVal?BASE_NAMES[svcVal]:'Auto Detailing';
-  const vName=selectedVehicle?VEHICLE_NAMES[selectedVehicle]:'Vehicle';
-  const dateStr=selectedDate.toISOString().split('T')[0].replace(/-/g,'');
-  const tp=selectedTime.match(/(\d+):(\d+)\s(AM|PM)/);
-  let h=parseInt(tp[1]);const m=tp[2];
-  if(tp[3]==='PM'&&h!==12)h+=12;
-  if(tp[3]==='AM'&&h===12)h=0;
-  const hs=String(h).padStart(2,'0');
-  const he=String(h+2).padStart(2,'0');
-  const start=dateStr+'T'+hs+m+'00';
-  const end=dateStr+'T'+he+m+'00';
-  const title=encodeURIComponent('Detailed By 2Clean — '+svcName);
-  const details=encodeURIComponent('Vehicle: '+vName+'\nService: '+svcName+'\nAddress: 1801 Hypoluxo Rd, Lantana FL\nEmail: desktech88@gmail.com');
-  const loc=encodeURIComponent('Mobile Service — We come to your location in Palm Beach County');
-  window.open('https://calendar.google.com/calendar/render?action=TEMPLATE&text='+title+'&dates='+start+'/'+end+'&details='+details+'&location='+loc,'_blank');
-  const st=document.getElementById('gcal-status');
-  if(st){st.style.display='block';st.textContent='✅ Google Calendar opened — click Save in the new tab!';}
-  showToast('Google Calendar opened — click Save!',false);
+function buildGCalURL(custEmail) {
+  if (!selectedDate || !selectedTime) return null;
+  const svc     = document.getElementById('service').value;
+  const svcName = svc ? BASE_NAMES[svc] : 'Auto Detailing';
+  const vName   = selectedVehicle ? VEHICLE_NAMES[selectedVehicle] : 'Vehicle';
+  const addr    = (document.getElementById('address') || {}).value || 'Palm Beach County';
+  const dateStr = [
+    selectedDate.getFullYear(),
+    String(selectedDate.getMonth() + 1).padStart(2, '0'),
+    String(selectedDate.getDate()).padStart(2, '0')
+  ].join('');
+  const tp = selectedTime.match(/(\d+):(\d+)\s(AM|PM)/);
+  let h = parseInt(tp[1]);
+  const m = tp[2];
+  if (tp[3] === 'PM' && h !== 12) h += 12;
+  if (tp[3] === 'AM' && h === 12) h = 0;
+  const hStr  = String(h).padStart(2, '0');
+  const heStr = String(h + 2).padStart(2, '0');
+  const start = dateStr + 'T' + hStr + m + '00';
+  const end   = dateStr + 'T' + heStr + m + '00';
+  const title   = encodeURIComponent('Detailed By 2Clean — ' + svcName);
+  const details = encodeURIComponent('Service: ' + svcName + '\nVehicle: ' + vName + '\nAddress: ' + addr + '\n\nDetailed By 2Clean\nPhone: (561) 341-1741\nEmail: desktech88@gmail.com');
+  const loc = encodeURIComponent(addr + ', Palm Beach County FL');
+  let guests = 'desktech88@gmail.com';
+  if (custEmail) guests += ',' + custEmail;
+  return 'https://calendar.google.com/calendar/render?action=TEMPLATE&text=' + title + '&dates=' + start + '/' + end + '&details=' + details + '&location=' + loc + '&add=' + encodeURIComponent(guests);
 }
 
-// PAYMENT
-function selectPay(el){document.querySelectorAll('.pay-btn').forEach(b=>b.classList.remove('selected'));el.classList.add('selected');}
-
-// SUBMIT
-function submitForm(){
-  const fname=document.getElementById('fname').value.trim();
-  const phone=document.getElementById('phone').value.trim();
-  const service=document.getElementById('service').value;
-  if(!fname||!phone){showToast('Please fill in your name and phone.',true);return;}
-  if(!service){showToast('Please select a service.',true);return;}
-  if(!selectedDate){showToast('Please select a date.',true);return;}
-  if(!selectedTime){showToast('Please select a time slot.',true);return;}
-  bookedDates.add(selectedDate.getFullYear()+'-'+selectedDate.getMonth()+'-'+selectedDate.getDate());
-  const svcName=BASE_NAMES[service]||service;
-  const base=BASE_PRICES[service]||0,vUp=VEHICLE_UPCHARGE[selectedVehicle]||0;
-  const addons=Array.from(document.querySelectorAll('.addons-grid input:checked'));
-  const total=base+vUp+addons.reduce((s,e)=>s+(ADDON_PRICES[e.value]||0),0);
-  const dateStr=selectedDate.toLocaleDateString('en-US',{weekday:'long',month:'long',day:'numeric'});
-  document.getElementById('success-detail').innerHTML=
-    '📱 <strong>SMS Sent:</strong><br><br>'+
-    '"Hi '+fname+'! Your Detailed By 2Clean appointment is confirmed ✅<br>'+
-    '📅 '+dateStr+' at '+selectedTime+'<br>'+
-    '🚗 '+(VEHICLE_NAMES[selectedVehicle]||'')+' — '+svcName+'<br>'+
-    '📍 We will come to you in Palm Beach County<br>'+
-    '💰 Est. Total: $'+total+'<br>'+
-    'Questions? Reply or call us. See you soon! ✨"';
-  document.getElementById('formView').style.display='none';
-  document.getElementById('formSuccess').style.display='block';
-  showToast('Booking confirmed! SMS sent.',false);
+function addToGoogleCalendar(custEmail) {
+  if (!selectedDate || !selectedTime) { showToast('Please select a date and time first.', true); return; }
+  const url = buildGCalURL(custEmail);
+  if (!url) return;
+  window.open(url, '_blank');
+  const st = document.getElementById('gcal-status');
+  if (st) { st.style.display = 'block'; st.textContent = '✅ Google Calendar opened — click Save to confirm your invite!'; }
+  showToast('Google Calendar opened — click Save!', false);
 }
 
-// TOAST
-function showToast(msg,isError){
-  const t=document.getElementById('toast');
-  t.querySelector('strong').textContent=isError?'Action Needed':'Confirmed';
-  t.querySelector('p').textContent=msg;
-  t.style.borderLeftColor=isError?'#cc3333':'var(--blue-bright)';
-  t.classList.add('show');setTimeout(()=>t.classList.remove('show'),4500);
+function selectPay(el) {
+  document.querySelectorAll('.pay-btn').forEach(b => b.classList.remove('selected'));
+  el.classList.add('selected');
 }
 
-// REVIEWS
-let starRating=0;
-function setStars(n){starRating=n;document.querySelectorAll('#star-picker span').forEach((s,i)=>s.classList.toggle('lit',i<n));}
-function submitReview(){
-  const name=document.getElementById('r-name').value.trim();
-  const text=document.getElementById('r-text').value.trim();
-  const svc=document.getElementById('r-service').value;
-  if(!name||!text||!starRating){showToast('Please fill in all review fields and select stars.',true);return;}
-  const stars='★'.repeat(starRating)+'☆'.repeat(5-starRating);
-  const card=document.createElement('div');card.className='review-card';
-  card.innerHTML='<div class="review-stars">'+stars+'</div><p class="review-text">"'+text+'"</p><div class="review-author">'+name+'</div><div class="review-via">✅ Verified Customer'+(svc?' · '+svc:'')+'</div>';
+function submitForm() {
+  const fname   = document.getElementById('fname').value.trim();
+  const phone   = document.getElementById('phone').value.trim();
+  const email   = document.getElementById('email').value.trim();
+  const address = document.getElementById('address').value.trim();
+  const service = document.getElementById('service').value;
+  if (!fname || !phone)   { showToast('Please fill in your name and phone.', true); return; }
+  if (!email)             { showToast('Please enter your email for the Google Calendar invite.', true); return; }
+  if (!address)           { showToast('Please enter your service address.', true); return; }
+  if (!service)           { showToast('Please select a service.', true); return; }
+  if (!selectedDate)      { showToast('Please select a date.', true); return; }
+  if (!selectedTime)      { showToast('Please select a time slot.', true); return; }
+  bookedDates.add(selectedDate.getFullYear() + '-' + selectedDate.getMonth() + '-' + selectedDate.getDate());
+  const svcName = BASE_NAMES[service] || service;
+  const base    = BASE_PRICES[service] || 0;
+  const vUp     = VEHICLE_UP[selectedVehicle] || 0;
+  const addons  = Array.from(document.querySelectorAll('.addons-grid input:checked'));
+  const total   = base + vUp + addons.reduce((s, e) => s + (ADDON_PRICES[e.value] || 0), 0);
+  const dateStr = selectedDate.toLocaleDateString('en-US', {weekday:'long', month:'long', day:'numeric'});
+  document.getElementById('success-detail').innerHTML =
+    '📱 <strong>SMS Confirmation Sent</strong><br><br>' +
+    '"Hi ' + fname + '! Your Detailed By 2Clean appointment is confirmed ✅<br>' +
+    '📅 ' + dateStr + ' at ' + selectedTime + '<br>' +
+    '🚗 ' + (VEHICLE_NAMES[selectedVehicle] || '') + ' — ' + svcName + '<br>' +
+    '📍 ' + address + '<br>' +
+    '💰 Est. Total: $' + total + '<br>' +
+    'Questions? Call/text (561) 341-1741. See you soon! ✨"<br><br>' +
+    '📧 <strong>Google Calendar invite will be sent to:</strong> ' + email;
+  const gcalBtn = document.getElementById('success-gcal-btn');
+  gcalBtn.onclick = function () { addToGoogleCalendar(email); };
+  document.getElementById('formView').style.display  = 'none';
+  document.getElementById('formSuccess').style.display = 'block';
+  showToast('Booking confirmed! Check your email for calendar invite.', false);
+}
+
+function showToast(msg, isError) {
+  const t = document.getElementById('toast');
+  t.querySelector('strong').textContent = isError ? 'Action Needed' : 'Confirmed ✓';
+  t.querySelector('p').textContent = msg;
+  t.style.borderLeftColor = isError ? '#cc3333' : 'var(--blue-bright)';
+  t.classList.add('show');
+  setTimeout(() => t.classList.remove('show'), 4500);
+}
+
+let starRating = 0;
+function setStars(n) {
+  starRating = n;
+  document.querySelectorAll('#star-picker span').forEach((s, i) => s.classList.toggle('lit', i < n));
+}
+function submitReview() {
+  const name = document.getElementById('r-name').value.trim();
+  const text = document.getElementById('r-text').value.trim();
+  const svc  = document.getElementById('r-service').value;
+  if (!name || !text || !starRating) { showToast('Please fill in all review fields and select stars.', true); return; }
+  const stars = '★'.repeat(starRating) + '☆'.repeat(5 - starRating);
+  const card  = document.createElement('div');
+  card.className = 'review-card';
+  card.innerHTML = '<div class="review-stars">' + stars + '</div><p class="review-text">"' + text + '"</p><div class="review-author">' + name + '</div><div class="review-via">✅ Verified Customer' + (svc ? ' · ' + svc : '') + '</div>';
   document.getElementById('reviews-grid').appendChild(card);
-  document.getElementById('r-name').value='';document.getElementById('r-text').value='';document.getElementById('r-service').value='';
-  setStars(0);showToast('Thank you for your review!',false);
+  document.getElementById('r-name').value = '';
+  document.getElementById('r-text').value = '';
+  document.getElementById('r-service').value = '';
+  setStars(0);
+  showToast('Thank you for your review!', false);
 }
 
-// BEFORE/AFTER SLIDERS
-document.querySelectorAll('.ba-slider').forEach(slider=>{
-  const after=slider.querySelector('.ba-after');
-  const handle=slider.querySelector('.ba-handle');
-  let dragging=false;
-  function setPos(x){
-    const rect=slider.getBoundingClientRect();
-    let pct=Math.max(0,Math.min(100,((x-rect.left)/rect.width)*100));
-    after.style.clipPath='inset(0 '+(100-pct)+'% 0 0)';
-    handle.style.left=pct+'%';
+function initSliders() {
+  document.querySelectorAll('.ba-slider').forEach(function (slider) {
+    const after  = slider.querySelector('.ba-after');
+    const handle = slider.querySelector('.ba-handle');
+    let dragging = false;
+    function getPercent(clientX) {
+      const rect = slider.getBoundingClientRect();
+      return Math.max(0, Math.min(100, ((clientX - rect.left) / rect.width) * 100));
+    }
+    function setPos(pct) {
+      after.style.clipPath  = 'inset(0 ' + (100 - pct) + '% 0 0)';
+      handle.style.left     = pct + '%';
+    }
+    slider.addEventListener('mousedown', function (e) { dragging = true; setPos(getPercent(e.clientX)); e.preventDefault(); });
+    window.addEventListener('mousemove', function (e) { if (dragging) setPos(getPercent(e.clientX)); });
+    window.addEventListener('mouseup', function () { dragging = false; });
+    slider.addEventListener('touchstart', function (e) { dragging = true; setPos(getPercent(e.touches[0].clientX)); }, {passive: true});
+    window.addEventListener('touchmove', function (e) { if (dragging) setPos(getPercent(e.touches[0].clientX)); }, {passive: true});
+    window.addEventListener('touchend', function () { dragging = false; });
+  });
+}
+
+function toggleAI() { document.getElementById('ai-panel').classList.toggle('open'); }
+function askQuick(q) {
+  document.getElementById('ai-input').value = q;
+  document.getElementById('ai-quick').style.display = 'none';
+  sendAI();
+}
+let isTyping = false;
+async function sendAI() {
+  if (isTyping) return;
+  const input = document.getElementById('ai-input');
+  const msg   = input.value.trim();
+  if (!msg) return;
+  input.value = '';
+  appendMsg(msg, 'user');
+  const typing = appendMsg('Typing...', 'bot typing');
+  isTyping = true;
+  try {
+    const r = await fetch('https://api.anthropic.com/v1/messages', {
+      method: 'POST',
+      headers: {'Content-Type': 'application/json'},
+      body: JSON.stringify({
+        model: 'claude-sonnet-4-20250514',
+        max_tokens: 1000,
+        system: 'You are an AI assistant for Detailed By 2Clean, a premium mobile auto detailing business run by Nate, located at 1801 Hypoluxo Rd, Lantana, FL. Nate has been in business for 2 years and has detailed 150+ cars. He takes every bit of constructive criticism and perfects his craft to the tee. We serve all of Palm Beach County including Lantana, Lake Worth, Boynton Beach, West Palm Beach, Delray Beach, Boca Raton, Greenacres, Wellington. Contact: desktech88@gmail.com, (561) 341-1741. Available services: Express Wash $49, Interior Deep Clean $149, Full Detail $249, Fleet/SUV $299. Ceramic Coating and Paint Correction are coming soon and not currently available. Vehicle upcharges: SUV +$20, Truck/Van +$30, Luxury/Exotic +$50. Add-ons: Ozone $40, Engine Bay $60, Headlight Restore $35, Paint Sealant $55, Leather Condition $30, Tint Clean $25. Mobile 7 days/week, Stripe/PayPal/Apple Pay/Cash accepted, SMS & email confirmations, Google Calendar invite sent on booking, 100% satisfaction guarantee. Be helpful, friendly, and concise (2-4 sentences).',
+        messages: [{role: 'user', content: msg}]
+      })
+    });
+    const data  = await r.json();
+    const reply = data.content?.[0]?.text || "Sorry, I couldn't connect right now!";
+    typing.remove();
+    appendMsg(reply, 'bot');
+  } catch (e) {
+    typing.remove();
+    appendMsg("Having trouble connecting. Call/text (561) 341-1741 or use the booking form!", 'bot');
   }
-  slider.addEventListener('mousedown',e=>{dragging=true;setPos(e.clientX);});
-  slider.addEventListener('touchstart',e=>{dragging=true;setPos(e.touches[0].clientX);},{passive:true});
-  document.addEventListener('mousemove',e=>{if(dragging)setPos(e.clientX);});
-  document.addEventListener('touchmove',e=>{if(dragging)setPos(e.touches[0].clientX);},{passive:true});
-  document.addEventListener('mouseup',()=>dragging=false);
-  document.addEventListener('touchend',()=>dragging=false);
-});
-
-// AI
-function toggleAI(){document.getElementById('ai-panel').classList.toggle('open');}
-function askQuick(q){document.getElementById('ai-input').value=q;document.getElementById('ai-quick').style.display='none';sendAI();}
-let isTyping=false;
-async function sendAI(){
-  if(isTyping)return;
-  const input=document.getElementById('ai-input');const msg=input.value.trim();if(!msg)return;
-  input.value='';appendMsg(msg,'user');const typing=appendMsg('Typing...','bot typing');isTyping=true;
-  try{
-    const r=await fetch('https://api.anthropic.com/v1/messages',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({model:'claude-sonnet-4-20250514',max_tokens:1000,system:'You are an AI assistant for Detailed By 2Clean, a premium mobile auto detailing business located at 1801 Hypoluxo Rd, Lantana, FL. We serve all of Palm Beach County including Lantana, Lake Worth, Boynton Beach, West Palm Beach, Delray Beach, Boca Raton, Greenacres, Wellington. Contact: desktech88@gmail.com. Answer questions about services, pricing, booking, service area, and detailing tips. Be helpful, friendly, and local. Keep answers concise (2-4 sentences). Vehicle upcharges: Sedan standard, SUV +$20, Truck/Van +$30, Luxury/Exotic +$50. Add-ons: Ozone $40, Engine Bay $60, Headlight Restore $35, Paint Sealant $55, Leather Condition $30, Tint Clean $25. Services: Express Wash $49, Interior Deep Clean $149, Full Detail $249, Ceramic Coating $599, Paint Correction $399, Fleet/SUV $299. Mobile, 7 days/week, Stripe/PayPal/Apple Pay/Cash, SMS confirmations, 100% satisfaction guarantee.',messages:[{role:'user',content:msg}]})});
-    const data=await r.json();
-    const reply=data.content?.[0]?.text||"Sorry, I couldn't connect right now!";
-    typing.remove();appendMsg(reply,'bot');
-  }catch(e){typing.remove();appendMsg("Having trouble connecting. Email desktech88@gmail.com or use the booking form!",'bot');}
-  isTyping=false;
+  isTyping = false;
 }
-function appendMsg(text,cls){
-  const box=document.getElementById('ai-messages');const div=document.createElement('div');
-  div.className='ai-msg '+cls;div.textContent=text;box.appendChild(div);box.scrollTop=box.scrollHeight;return div;
+function appendMsg(text, cls) {
+  const box = document.getElementById('ai-messages');
+  const div = document.createElement('div');
+  div.className   = 'ai-msg ' + cls;
+  div.textContent = text;
+  box.appendChild(div);
+  box.scrollTop = box.scrollHeight;
+  return div;
 }
 
 initCalendar();
+initSliders();
 </script>
+
 </body>
 </html>
