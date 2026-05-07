@@ -127,29 +127,14 @@ nav.scrolled{background:rgba(5,5,8,.95);backdrop-filter:blur(14px);padding:12px 
 
 /* REVIEWS */
 .reviews-section{padding:100px 48px;}
-..google-review-btn{
-  margin-left:auto;
-  background:var(--blue);
-  color:#fff;
-  border:none;
-  padding:10px 16px;
-  font-family:'Syne',sans-serif;
-  font-size:.78rem;
-  letter-spacing:1.5px;
-  text-transform:uppercase;
-  cursor:pointer;
-  text-decoration:none;
-  white-space:nowrap;
-}
-
-.google-review-btn:hover{
-  background:var(--blue-bright);
-}
+.google-badge{display:flex;align-items:center;gap:20px;background:rgba(41,82,204,.08);border:1px solid var(--border);padding:20px 24px;margin-bottom:40px;max-width:560px;flex-wrap:wrap;}
 .gb-logo{font-size:2.2rem;}
 .gb-stars{color:var(--gold);font-size:1.2rem;letter-spacing:3px;}
 .gb-score{font-family:'Bebas Neue',sans-serif;font-size:2.6rem;color:#fff;line-height:1;}
 .gb-count{font-size:.8rem;color:var(--text-muted);}
 .gb-source{font-family:'Syne',sans-serif;font-size:.7rem;letter-spacing:2px;text-transform:uppercase;color:var(--blue-bright);margin-top:3px;}
+.google-review-btn{margin-left:auto;background:var(--blue);color:#fff;border:none;padding:10px 16px;font-family:'Syne',sans-serif;font-size:.78rem;letter-spacing:1.5px;text-transform:uppercase;cursor:pointer;text-decoration:none;white-space:nowrap;display:inline-block;}
+.google-review-btn:hover{background:var(--blue-bright);}
 .reviews-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:2px;background:var(--border);margin-bottom:40px;}
 .review-card{background:var(--panel);padding:28px 24px;}
 .review-stars{color:var(--gold);font-size:1rem;margin-bottom:10px;letter-spacing:2px;}
@@ -824,22 +809,11 @@ footer{padding:36px 16px;}
   </div>
 </section>
 
-<div class="google-badge">
-  <div class="gb-logo">🔵</div>
+<section class="reviews-section" id="reviews">
+  <div class="section-eyebrow">What Clients Say</div>
+  <h2 class="section-title">Google Reviews</h2>
+  <div class="google-badge">
 
-  <div>
-    <div class="gb-score">4.8</div>
-    <div class="gb-stars">★★★★★</div>
-    <div class="gb-count">Verified Google reviews</div>
-    <div class="gb-source">Google Business Profile</div>
-  </div>
-
-  <a href="https://www.google.com/search?q=Detailedby2clean"
-     target="_blank"
-     class="google-review-btn">
-     Leave a Review →
-  </a>
-</div> 
     <div class="gb-logo">🔵</div>
     <div>
       <div class="gb-score">4.8</div>
@@ -847,7 +821,7 @@ footer{padding:36px 16px;}
       <div class="gb-count">Verified Google reviews</div>
       <div class="gb-source">Google Business Profile</div>
     </div>
-    <a href="https://g.page/r/YOUR_GOOGLE_PLACE_ID/review" target="_blank" style="margin-left:auto;background:var(--blue);color:#fff;border:none;padding:10px 16px;font-family:'Syne',sans-serif;font-size:.78rem;letter-spacing:1.5px;text-transform:uppercase;cursor:pointer;text-decoration:none;white-space:nowrap;">Leave a Review →</a>
+    <a href="https://www.google.com/search?q=Detailedby2clean&stick=H4sIAAAAAAAA_-NgU1I1qDBKNjK3tDRLTTRJTjE1T0uyMqgwsTQzBHJMUs0MTI1NDBIXsQq4pJYkZuakpiRVGiXnpCbmAQCNqPWaPAAAAA&hl=en&mat=Cf3VXIqizZymElcBTVDHnl7qjvB3_PlCUI6NdUpBi3_84Ds3MDiOIfsMUlzHHJqhCi87ZWEdrHIF-yNl5wC9PuhRC6rIA5un4nT9gjqtPq-sX5T4-V2agIcR1Vf9GcjSlS0&authuser=0" target="_blank" class="google-review-btn">Leave a Review →</a>
   </div>
   <div class="reviews-grid" id="reviews-grid">
     <div class="review-card">
